@@ -8,11 +8,17 @@ Follow these steps to use it:
 2. Run `cn.py`.  
    - The script will add all lines from `ktr.csv` that do not already exist in the `cn.csv` file.  
 
-## how do i add that into chine brwal
-iOS: you need friza and chinese brael installed
-1 Move `ktr.csv` into Fliza by `share>copy to fliza` and copy it 
-2 Go to /var/containars/Bundle/applications/荒野乱斗/BrawlStars.app/res/localization
-3 delete cn.csv and add ktr.csv and rename ktr.csv to cn.csv
+## How to Add to the Chinese Brawl Client  
+
+### iOS Instructions  
+You will need **Filza** and the Chinese Brawl client installed on your device.  
+
+1. Move `ktr.csv` into Filza using the **Share > Copy to Filza** option.  
+2. Open Filza and navigate to the following path:  
+   `/var/containers/Bundle/applications/荒野乱斗/BrawlStars.app/res/localization`  
+3. Delete the existing `cn.csv` file.  
+4. Paste `ktr.csv` into this directory.  
+5. Rename `ktr.csv` to `cn.csv`.  
 
 ## What is `del.py`?
 The `del.py` script is used to delete duplicates in case something gets messed up during the process.
