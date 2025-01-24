@@ -1,4 +1,4 @@
-# KTR Dev Epock Tool 🥶🥶
+## this is kte dev epock tool 🥶🥶
 
 ## How to Use
 This tool is designed to translate `ktr.csv` into `cn.csv` for the Chinese Brawl client.  
