@@ -6,7 +6,7 @@ Follow these steps to use it:
 
 1. Place the latest `texts.csv` in the same directory as the script.  
 2. Run `cn.py`.  
-   - The script will add all lines from `ktr.csv` that do not already exist in the `cn.csv` file.  
+   - The script will add all lines from `texts.csv` that do not already exist in the `ktr.csv` file.  
 
 ## How to Add to the Chinese Brawl Client  
 
