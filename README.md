@@ -18,7 +18,9 @@ You will need **Filza** and the Chinese Brawl client installed on your device.
    `/var/containers/Bundle/applications/荒野乱斗/BrawlStars.app/res/localization`  
 3. Delete the existing `cn.csv` file.  
 4. Paste `ktr.csv` into this directory.  
-5. Rename `ktr.csv` to `cn.csv`.  
+5. Rename `ktr.csv` to `cn.csv`.
+### Android Instructions
+no
 
 ## What is `del.py`?
 The `del.py` script is used to delete duplicates in case something gets messed up during the process.
