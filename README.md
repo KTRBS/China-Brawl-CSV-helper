@@ -11,7 +11,7 @@ Follow these steps to use it:
 ## How to Add to the Chinese Brawl Client  
 
 ### iOS Instructions  
-You will need **Filza** and the Chinese Brawl client installed on your device.  
+You will need **Filza**, jb or torl store the Chinese Brawl client installed on your device.  
 
 1. Move `ktr.csv` into Filza using the **Share > Copy to Filza** option.  
 2. Open Filza and navigate to the following path:  
