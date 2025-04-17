@@ -6359,7 +6359,7 @@ TID_PLAYER_CLUB_INFO_PRIVATE,This player has set the Club info private
 TID_CLAN_RESPONSE_111,This feature is currently unavailable
 TID_CLAN_RESPONSE_120,"The description content is not allowed, please try different one."
 TID_CHINA_LOGIN_DESC_YOOZOO,this is china login desc yozo
-TID_YOOZOO_LOGIN_AGREEMENTS,"I have carefully read and agree with <TOS>, <PP>, <CHILDREN> and <THIRDPARTY>."
+TID_YOOZOO_LOGIN_AGREEMENTS,anyway tap this
 TID_YOOZOO_TERMS_CHILDREN,Yoozoo Children's Privacy Protection Guidelines
 TID_TERMS_CHILDREN_BUTTON_YOOZOO,Yoozoo Children's Privacy Protection Guidelines
 TID_YOOZOO_THIRDPARTY_INFO,Third Party Info Sharing List
@@ -7597,7 +7597,7 @@ TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_REFUSE,dont tap me
 TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE,this is tencent login cps agreement popup title
 TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE_2,????????????
 TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP,hi 
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,????????????????????????????????????????????????<TOS>??? <PP>??? <CHILDREN>???<THIRDPARTY>????????????????????????
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,tid tencent login cps agreement popup2
 TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_BACK,??????
 TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_NO,??????
 TID_CATALOG_ITEM_PART_OF,Part of:
@@ -9656,7 +9656,7 @@ TID_DIGGER_ULTI_DESC,"Moe gets into his trusty Driller, drilling to targeted loc
 TID_DIGGER_SP_1,SKIPPING STONES
 TID_DIGGER_SP_1_DESC,Moe's basic attacks bounce one more time. The range of the attack remains the same.
 TID_DIGGER_SP_2,SPEEDING TICKET
-TID_DIGGER_SP_2_DESC,Moe??s Driller has increased travel speed while drilling underground.
+TID_DIGGER_SP_2_DESC,Moe's Driller has increased travel speed while drilling underground.
 TID_DIGGER_GADGET_1,DODGY DIGGING
 TID_DIGGER_GADGET_1_DESC,"Moe digs up some ???borrowed?? goods, increasing his Super charge rate by <c00cc00><VALUE1>%</c> for <c00cc00><VALUE2></c> seconds."
 TID_DIGGER_GADGET_2,RAT RACE
@@ -9989,7 +9989,7 @@ TID_CN_WIDGET_WING_BOXBLUEORANGE,MEGA BOX
 TID_CN_WIDGET_WING_BOXREDORANGE,OMEGA BOX
 TID_LOBBY_CAMERA,CAMERA MODE
 TID_LOBBY_EXIT_TITLE,EXIT
-TID_LOBBY_EXIT_CONTENT,ARE YOU SURE DO YOU WANT TO EXIT THIS ROOM?
+TID_LOBBY_EXIT_CONTENT,Are you sure do you want to exit this room?
 TID_K2_TROPHY_PROTECT_BIN_TEXT,PROTECT TROPHY
 TID_LOBBY_NAME_DEFAULT,INPUT LOBBY NAME
 TID_LOBBY_LIST_TITLE_HOT,HOT LOBBY
@@ -10007,9 +10007,12 @@ TID_LOBBY_CHAT_ALLIANCE,[LOBBY CHAT] <NAME>: <CONTENT>
 TID_LOBBY_CHANGE,CHANGE
 TID_BROADCAST_REWARD_9,<cFF00FF>H<cF30CFF>E<cED12FF>L<cE718FF>L<cE11EFF>O<cDB24FF> <cD52AFF>B<cD02FFF>R<cCA35FF>O<cC43BFF>S<cBE41FF> <cB847FF>T<cB24DFF>H<cAC53FF>I<cA659FF>S<cA05FFF> <c9A65FF>S<c946BFF>H<c8E71FF>O<c8877FF>P<c827DFF> <c7D82FF>W<c7788FF>A<c718EFF>S<c6B94FF> <c659AFF>H<c5FA0FF>A<c59A6FF>C<c53ACFF>C<c4DB2FF>E<c47B8FF>D<c41BEFF> <c3BC4FF>B<c35CAFF>Y<c2FD0FF> <c2AD5FF>K<c24DBFF>T<c1EE1FF>R<c18E7FF> <c12EDFF>H<c0CF3FF>A<c06F9FF>C<c00FFFF>C</c>
 TID_LOBBY_TALK_SYMBOL,[PIN]
-TID_CHAT_LOBBY_UP_DESCRIPTION,???????????????
+TID_CHAT_LOBBY_UP_DESCRIPTION,
 TID_CHAT_LOBBY_UP_BTN,IN CITY
+TID_CHAT_BUTTON_INVITETOLOBBY,INVITE TO LOBBY
 TID_LOBBYCHAT_TAB_CLUB,IN CITY
+TID_LOBBY_INVITE_REJECTION,REJECT
+TID_LOBBY_INVITE_ACCEPT,ACCEPT
 TID_LOBBY_ERROR_1,LOBBY IS FULL
 TID_LOBBY_ERROR_2,LOBBY DOESNT EXIST
 TID_LOBBY_PASSWORD_TITLE,INSERT PASSWORD
@@ -10039,7 +10042,7 @@ TID_K2_SHOP_GATCHA_BOX_1000004,MEGA BOX
 TID_K2_SHOP_GATCHA_BOX_1000005,MEGA BOX
 TID_K2_SHOP_GATCHA_BOX_1000006,
 TID_K2_SHOP_GATCHA_BOX_1000007,
-TID_LOBBY_OWNER,[??] <NAME>
+TID_LOBBY_OWNER,[OWNER] <NAME>
 TID_LOBBY_CODE,<NAME>
 TID_LOBBY_NAME,<NAME>
 TID_LOBBY_ONLINE_NUM,MEMBERS
@@ -10162,6 +10165,9 @@ TID_CANCER_ENRAGER_SKIN,CANCER EDGER
 TID_CN_UNDERTAKER_TRON_SKIN,UNDERTAKER TRON MORTIS
 TID_CN_UNDERTAKER_TRON_YELLOW_SKIN,UNDERTAKER TRON YELLOW MORTIS
 TID_CN_UNDERTAKER_TRON_PINK_SKIN,UNDERTAKER TRON PINK MORTIS
+TID_CN_UNDERTAKER_TRON_SKIN_SHOP,UNDERTAKER TRON MORTIS
+TID_CN_UNDERTAKER_TRON_YELLOW_SKIN_SHOP,UNDERTAKER TRON YELLOW MORTIS
+TID_CN_UNDERTAKER_TRON_PINK_SKIN_SHOP,UNDERTAKER TRON PINK MORTIS
 TID_K2_SHOP_GATCHA_BOX_1000008,Super cool box 1
 TID_K2_SHOP_GATCHA_BOX_1000009,Super cool box 2
 TID_K2_ULTRAMAN_ITGA_DESC_BOTTOM,??<cff8000>??</c>???????!
@@ -10345,7 +10351,7 @@ TID_K2_GALLERY_DRAW_CHAT_NAME_0,COLETTE
 TID_K2_GALLERY_DRAW_CHAT_TEXT_0,Welcome to the collection. You have collected %d Growth Stars. Do you want to open the collection gatcha?
 TID_K2_GALLERY_DRAW_CHAT_NAME_1,COLETTE
 TID_K2_GALLERY_DRAW_CHAT_TEXT_1,"Congratulations on obtaining:\n%s Theme @ Collection,\nCurrent unlocking progress %d/%d!"
-TID_K2_GALLERY_DRAW_CHAT_NAME_2,???
+TID_K2_GALLERY_DRAW_CHAT_NAME_2,COLETTE
 TID_K2_GALLERY_DRAW_CHAT_TEXT_2,"Thank you for your collection, \nBrawl Stars is with you all the way!"
 TID_K2_GALLERY_DRAW_CHAT_SPECIAL,<cf86d16>%03d</c>
 TID_K2_GALLERY_DRAW_ERROR_DATA,"Collection data error!@#$, please log in again..."
@@ -10775,7 +10781,6 @@ katere,
 TID_K2_BOX_GUIDE_0,You have obtained enough hero coupons. Now go to the store to open the super treasure box. I wish you get a new hero!
 TID_QUEST_DESC_11,PLAY <AMOUNT> BATTLES
 TID_HERO_TIER_MAX,MAX
-TID_DEAD_MARIACHI_WEAPON_DESC,"Poco strums his guitarrón, sending forward bone-jarring sound waves. Enemies hit by the waves take damage."
 TID_ENTER_NAME_BODY,What's your nickname? Please don't use your real name!
 TID_RANK_POPUP_TOTAL_INFO,Gain Trophies to unlock rewards and reach new Leagues! Total Trophies is a combination of all your Brawlers' individual Trophies.
 TID_RANK_POPUP_SEASON_END_TITLE,BOX OPENS IN
@@ -10788,10 +10793,10 @@ TID_PLAYER_STAT_4,ALL TIME HIGH
 TID_PLAYER_STAT_29,SEASON HIGH
 TID_SETTINGS_PLAYERNAME_ENTERNEW,Please don't use your real name! Enter new nickname:
 TID_SHOP_CHAIN_OFFER,CHAIN OFFER
-TID_ABOUT,Credits\n\n<names>\n\nBrawl Stars ™ <version>\nCopyright 2016-2024 Supercell Ltd. All Rights Reserved.\n<extracopyright>\n<terms>
+TID_ABOUT,Credits\nBrawl Stars ??? <version>\nCopyright 2016-2024 Supercell Ltd. All Rights Reserved.
 TID_IAP_DELIVERY_PENDING,Please wait. Payment complete. Delivery pending.
 TID_SPEC_ABI_PREY_ON_THE_WEAK_DESC,Crow deals <c00cc00>+<VALUE1>%</c> damage with his attack and Super to targets with <VALUE2>% or less health.
-TID_IAP_INFO_TEXT,"청약철회는 구매일로부터 7일 이내 가능(단, 사용시 철회불가) 법정대리인 동의 없는 미성년자명의 결제 시 취소가능"
+TID_IAP_INFO_TEXT,"??????????????? ?????????????????? 7??? ?????? ??????(???, ????????? ????????????) ??????????????? ?????? ?????? ?????????????????? ?????? ??? ????????????"
 TID_NEXT_ROBO_IN,Next Battle in:
 TID_ROBO_WARS_OWN_ROBO_SPAWNED,ATTACK with <num> level <level> Spirits!
 TID_ROBO_WARS_ENEMY_ROBO_SPAWNED,DEFEND against <num> level <level> Spirits!
@@ -10801,8 +10806,7 @@ TID_ROBO_WARS_SPAWNED,Spirits summoned!
 TID_NO_ROBOS_SPAWNED,No Spirits summoned
 TID_LAST_ROBO_IN,Last Battle in:
 TID_ROBO_LEVEL,Spirit lvl: <num>
-TID_NEWS_TAB_VIDEOS_LIVESTREAM_CHINA,视频/直播
-TID_IAP_INFO_MORE_INFO_BTN,자세히보기
+TID_IAP_INFO_MORE_INFO_BTN,???????????????
 TID_SHOP_OFFER_TITLE_NEW_BRAWLER_AND_SKIN,NEW BRAWLER & SKIN
 TID_GAME_MODE_16,PRESENT PLUNDER
 TID_GAME_MODE_16_DESC,"Grab presents from the opposing team and bring them to your base! Match ends when one team has captured two presents, or when time runs out."
@@ -10810,60 +10814,51 @@ TID_CTF_INTRO_TEXT,Grab two presents to win
 TID_CTF_GOAL,<name>\nstole a present!
 TID_CTF_GOAL_MATCH_OVER,<name>\nstole a present!\n\nMatch over
 TID_ACCESSORY_SNIPER_HANDGUN_DESC,"Piper pops a defensive shot at the closest enemy, dealing <c00cc00><VALUE2></c> damage, while also pushing them back."
-TID_YOOZOO_LOGIN_DESC,本网络游戏适合年满12周岁以上的用户使用，\n请您确认已如实进行实名认证。为了您的健康，请合理控制游戏时间。\n健康游戏忠告 抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当\n适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活
+TID_YOOZOO_LOGIN_DESC,???????????????????????????12??????????????????????????????\n?????????????????????????????????????????????????????????????????????????????????????????????\n?????????????????? ?????????????????? ?????????????????? ?????????????????? ??????????????????\n?????????????????? ?????????????????? ?????????????????? ??????????????????
 TID_ACCESSORY_CONTROLLER_EXPLODE,WARPIN' TIME
 TID_ACCESSORY_CONTROLLER_EXPLODE_DESC,Nani teleports to Peep's last known location and ends her Super.
-TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_1,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
-TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_2,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
-TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_3,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
-TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_1,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
-TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_2,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
-TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_3,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
-TID_CHINESE_APP_STORE_CONFLICT_MESSAGE,此微信/QQ账号已经关联了从其他安卓应用商店下载的相同游戏，不能再次关联。如果您希望使用该微信/QQ账号重新开始游戏，请从游戏内联系Supercell玩家支持团队。
-TID_QUALIFIED_TITLE_CHINA,线上资格赛已解锁！
-TID_QUALIFIED_INFO_CHINA,您已成功完成全球锦标赛挑战，真棒！\n您可以前往<cFFE400><URL></c>，通过引导完成赛事报名，继续荒野乱斗全球锦标赛之旅！
-TID_CHINA_LOGIN_DESC,本公司积极履行《网络游戏行业防沉迷自律公约》抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。沪网文【2018】8544-517号、新出网证（沪）字33号 著作权人：SUPERCELL OY 出版单位：上海游族信息技术有限公司 运营单位：上海游族信息技术有限公司 国新出审【2020】552号 出版物号：ISBN 978-7-498-07472-0
-TID_PRO_LEAGUE_INFO_POPUP_RANK_INFO_CN,跻身排行榜前列\n可获得的额外奖励
-TID_PRO_LEAGUE_POPUP_INFO_CN,在星徽竞技场中证明自己的实力！每天可参加3场星徽竞技场对战，在赛季排行榜上冲击更高排名。赛季结束后，您将根据自己的积分和在排行榜上的排名获得星光点数奖励。
-TID_QUALIFIED_INFO_CN,您已成功完成全球锦标赛挑战，真棒！\n您可以前往<cFFE400><URL></c>，通过引导完成赛事报名，继续荒野乱斗全球锦标赛之旅！
-TID_PRIVACY_POLICY_BUTTON_TENCENT,荒野乱斗隐私保护指引
-TID_TENCENT_LOGIN_AGREEMENTS,"I have carefully read and agree with <TOS>, <PP>, <CHILDREN> and <THIRDPARTY>."
-TID_TENCENT_LOGIN_PP,荒野乱斗隐私保护指引
+TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_1,???????????????????????????????????????????????????????????????????????????????????????????????????
+TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_2,???????????????????????????????????????????????????????????????????????????????????????????????????
+TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_3,???????????????????????????????????????????????????????????????????????????????????????????????????
+TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_1,???????????????????????????????????????????????????????????????????????????????????????????????????
+TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_2,???????????????????????????????????????????????????????????????????????????????????????????????????
+TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_3,???????????????????????????????????????????????????????????????????????????????????????????????????
+TID_CHINESE_APP_STORE_CONFLICT_MESSAGE,?????????/QQ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????/QQ????????????????????????????????????????????????Supercell?????????????????????
+TID_QUALIFIED_TITLE_CHINA,???????????????????????????
+TID_QUALIFIED_INFO_CHINA,???????????????????????????????????????????????????\n???????????????<cFFE400><URL></c>??????????????????????????????????????????????????????????????????????????????
+TID_CHINA_LOGIN_DESC, this is china login desc
+TID_PRO_LEAGUE_INFO_POPUP_RANK_INFO_CN,?????????????????????\n????????????????????????
+TID_QUALIFIED_INFO_CN,???????????????????????????????????????????????????\n???????????????<cFFE400><URL></c>??????????????????????????????????????????????????????????????????????????????
+TID_PRIVACY_POLICY_BUTTON_TENCENT,PRIVACY POLICY
+TID_TENCENT_LOGIN_AGREEMENTS,tap this
+TID_TENCENT_LOGIN_PP,??????????????????????????????
 TID_TENCENT_LOGIN_AGREEMENT_NOTE,"You need to carefully read and agree with\n<TOS>,\n<PP>,\n<CHILDREN> and\n<THIRDPARTY>\nbefore accessing the game."
-TID_TENCENT_LOGIN_BS_PP,荒野乱斗隐私保护指引
-TID_TENCENT_LOGIN_SPECIAL_TOS,《腾讯游戏许可及服务协议》
-TID_TENCENT_LOGIN_SPECIAL_OLD_PP,《腾讯游戏隐私保护指引》
-TID_TENCENT_LOGIN_SPECIAL_BS_PP,《荒野乱斗隐私保护指引》
-TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_1_TITLE,更新提示
-TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_1,尊敬的腾讯游戏用户：\n为充分保障您的权利及个人信息安全，我们根据法律法规要求，\n对<OLDPP>进行了更新。我们结合本产品和业务实际，更详细、具体地向您说明我们收集和使用您个人信息的业务场景及目的，具体可参见<PP>内更新提示。\n您也可以阅读完整版\n<PP>和<TOS>\n了解详尽的个人信息处理规则和用户权利义务。如您已详细阅读并同意\n<TOS>和<PP>，\n请点击\q同意\q继续使用我们的服务。
-TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_2,尊敬的用户，您需要详细阅读并同意\n<TOS>、<PP>、\n<CHILDREN>和<THIRDPARTY>，\n才可进入游戏哦。
-TID_EL_ATOMICO_SKIN,EL ATÓMICO
-TID_EL_ATOMICO_SKIN_SHOP,EL ATÓMICO
+TID_TENCENT_LOGIN_BS_PP,??????????????????????????????
+TID_TENCENT_LOGIN_SPECIAL_TOS,???????????????????????????????????????
+TID_TENCENT_LOGIN_SPECIAL_OLD_PP,????????????????????????????????????
+TID_TENCENT_LOGIN_SPECIAL_BS_PP,????????????????????????????????????
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_1_TITLE,????????????
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_1,??????????????????????????????\n????????????????????????????????????????????????????????????????????????????????????\n???<OLDPP>????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????<PP>??????????????????\n???????????????????????????\n<PP>???<TOS>\n?????????????????????????????????????????????????????????????????????????????????????????????\n<TOS>???<PP>???\n?????????\q??????\q??????????????????????????????
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_2,????????????????????????????????????????????????\n<TOS>???<PP>???\n<CHILDREN>???<THIRDPARTY>???\n????????????????????????
+TID_EL_ATOMICO_SKIN,EL ATOMICO
+TID_EL_ATOMICO_SKIN_SHOP,EL ATOMICO
 TID_PERCENT_DAMAGE_STAT_DESC_UPG,<PERCENT>% (min <MIN_DAMAGE> <c00ff00>+<MIN_DAMAGE_UPG></c>)
 TID_ICE_DUDE_ULTI_DESC,"Lou lobs a can of freezing cold syrup that creates an icy, slippery area on the ground that also slowly freezes and damages enemies. Very tough for his opponents' fancy footwork!"
 TID_TRAIT_RT_MOVE_ON_WATER,R-T can move over water when split from the legs
-TID_JAN2021MAPS_3,Arène en folie
 TID_RANKED_TEAM_SELECT_HINT_SP_GADGET,"Select your Star Power, Gadget and Gear!"
 TID_KNIGHT_OVERCHARGE,RAT KING
 TID_KNIGHT_OVERCHARGE_DESC,Little Helper spawns <c00cc00><VALUE1></c> more rats!
-TID_CERRO_PORTENO_COLT_SKIN,CERRO PORTEÑO COLT
-TID_CERRO_PORTENO_COLT_SKIN_SHOP,CERRO PORTEÑO\nCOLT
 TID_GAME_MODE_21,CARRY THE GIFT
 TID_GAME_MODE_21_DESC,Hold the present to collect points! First team to reach 100% wins the match.
 TID_HOLD_THE_BALL_INTRO_TEXT,Hold the present to collect points!
-TID_AVOID_POISON_PRC,请寻找安全去！
-TID_EVENT_POPUP_GAME_MODE_6_SOLO_DUO_PRC,独自作战
-TID_SHOWDOWN_END_PRC,决赛圈！
-TID_CHINA_LOGIN_AA_POPUP_DESC,1）本游戏是一款多人实时对战类游戏，适用于年满12周岁及以上的用户，\n建议未成年人在家长监护下使用游戏产品。\n\n2）游戏无明显背景，需要玩家操作各种英雄与队友配合取得胜利，\n游戏有丰富多样的玩法，包含角色养成、竞技等，需要投入一定的时间和精力。\n游戏中存在基于文字的陌生人社交系统，且社交系统的管理遵循相关法律法规。\n\n3）本游戏中有用户实名认证系统，认证为未成年人的用户将接受以下管理：\n游戏中部分玩法和道具需要付费。未满8周岁的用户不能付费；8周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。未成年人用户每日22点到次日8点不得使用，法定节假日每天不得使用超过3小时，其他时间每天不得使用超过1.5小时。\n\n4）游戏以竞技为主题，画面精美，玩法多样，能够带给玩家轻松愉悦的游戏氛围，\n游戏中的排位赛有助于调动玩家的积极情绪，在比赛中获胜能够提升玩家的自信心。\n游戏提供了丰富的社交系统，包括战队、好友等，玩家之间可以互相交流，互相配合，\n共同完成游戏任务，有助于促进玩家的社会交流，维持良好的社群关系。
-TID_CHINA_LOGIN_AA_POPUP_TITLE,提示说明
-TID_EL_DRAGON_VERDE_SKIN,EL DRAGÓN VERDOSO
-TID_EL_DRAGON_VERDE_SKIN_SHOP,EL DRAGÓN\nVERDOSO
-TID_EL_DRAGON_ROSADO_SKIN,EL DRAGÓN ROSADO
-TID_EL_DRAGON_ROSADO_SKIN_SHOP,EL DRAGÓN\nROSADO
-TID_CHINA_LOGIN_AA_POPUP_DESC_TENCENT,1）本游戏是一款多人实时对战类游戏，适用于年满12周岁及以上的用户，\n建议未成年人在家长监护下使用游戏产品。\n\n2）游戏无明显背景，需要玩家操作各种英雄与队友配合取得胜利，\n游戏有丰富多样的玩法，包含角色养成、竞技等，需要投入一定的时间和精力。\n游戏中存在基于文字的陌生人社交系统，且社交系统的管理遵循相关法律法规。\n\n3）根据国家相关要求，游戏中有用户实名认证系统，未通过实名认证的用户不可进入游戏；\n认证为未成年人的用户除周五、周六、周日及法定节假日每日20时至21时外其他时间均不可进入游戏。游戏中部分玩法和道具需要付费。根据腾讯健康系统管理规定，认证为未成年人的用户将接受以下管理：未满12周岁的用户不能付费；12周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。\n\n4）游戏以竞技为主题，画面精美，玩法多样，能够带给玩家轻松愉悦的游戏氛围，\n游戏中的排位赛有助于调动玩家的积极情绪，在比赛中获胜能够提升玩家的自信心。\n游戏提供了丰富的社交系统，包括战队、好友等，玩家之间可以互相交流，互相配合，\n共同完成游戏任务，有助于促进玩家的社会交流，维持良好的社群关系。
-TID_CHINA_LOGIN_AA_POPUP_DESC_YOOZOO,1）本游戏是一款多人实时对战类游戏，适用于年满12周岁及以上的用户，\n建议未成年人在家长监护下使用游戏产品。\n\n2）游戏无明显背景，需要玩家操作各种英雄与队友配合取得胜利，\n游戏有丰富多样的玩法，包含角色养成、竞技等，需要投入一定的时间和精力。\n游戏中存在基于文字的陌生人社交系统，且社交系统的管理遵循相关法律法规。\n\n3）本游戏中有用户实名认证系统，认证为未成年人的用户将接受以下管理：\n游戏中部分玩法和道具需要付费。未满8周岁的用户不能付费：8周岁以上未满16周岁的未成年人用户，单次充值不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。未成年人仅可在周五、周六、周日和法定节假日每日20时至21时体检1小时网络游戏服务。\n\n4）游戏以竞技为主题，画面精美，玩法多样，能够带给玩家轻松愉悦的游戏氛围，\n游戏中的排位赛有助于调动玩家的积极情绪，在比赛中获胜能够提升玩家的自信心。\n游戏提供了丰富的社交系统，包括战队、好友等，玩家之间可以互相交流，互相配合，\n共同完成游戏任务，有助于促进玩家的社会交流，维持良好的社群关系。
-TID_EL_PRIMO_VALENTINES,EL CORAZÓN
-TID_EL_PRIMO_VALENTINES_SHOP,EL\nCORAZÓN
+TID_CHINA_LOGIN_AA_POPUP_DESC,china login aa popup desc
+TID_CHINA_LOGIN_AA_POPUP_TITLE,china login aa popup
+TID_EL_DRAGON_VERDE_SKIN,EL DRAGON VERDOSO
+TID_EL_DRAGON_VERDE_SKIN_SHOP,EL DRAGON\nVERDOSO
+TID_EL_DRAGON_ROSADO_SKIN,EL DRAGON ROSADO
+TID_EL_DRAGON_ROSADO_SKIN_SHOP,EL DRAGON\nROSADO
+TID_CHINA_LOGIN_AA_POPUP_DESC_TENCENT,tid china aa popup desc tencent
+TID_CHINA_LOGIN_AA_POPUP_DESC_YOOZOO,tid china aa popup desc yozo
 TID_FLEA_OVERCHARGE,GENERATIONS
 TID_FLEA_OVERCHARGE_DESC,Baby boom now spawns hatchlings over time!
 TID_KC_FIRST_BLOOD,<name> First Soul!
@@ -10876,59 +10871,30 @@ TID_HOTZONE_32,Double-Sided
 TID_JETPACK_GIRL_OVERCHARGE,MAGNUM OPUS
 TID_JETPACK_GIRL_OVERCHARGE_DESC,Janet retains full movement control during her Super.
 TID_ACCESSORY_POWER_LEVELER_EXTRA_LEVELS_DESC,Surge overloads his circuits and increases his upgrade stage by <c00cc00><VALUE1></c> for <c00cc00><VALUE2></c> seconds.
-TID_CHINA_LOGIN_DESC_YOOZOO,本公司积极履行《网络游戏行业防沉迷自律公约》抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。沪网文【2018】8544-517号、新出网证（沪）字33号 著作权人：SUPERCELL OY 出版单位：上海游族信息技术有限公司 运营单位：上海游族信息技术有限公司 批准文号：国新出审【2020】552号 出版物号：ISBN 978-7-498-07472-0
+TID_CHINA_LOGIN_DESC_YOOZOO,this is tid china login desc yozooo
 TID_DOOR_MAN_OVERCHARGE,ANOTHER DIMENSION
 TID_DOOR_MAN_OVERCHARGE_DESC,Gray opens a new pair of portals that shields him and allies for <c00cc00><VALUE2></c> when they pass through.
-TID_PINATA_ASH_SKIN,PIÑATA ASH
-TID_PINATA_ASH_SKIN_SHOP,PIÑATA ASH
-TID_CHINA_YOOZOO_EXTRA_PRIVACY_BUTTON,个人信息收集清单
-TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TITLE,重要提示
-TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TEXT,为方便您与客服交流，如需要提供已拍摄照片或截图，我们需要获取您设备的相册权限，以及读取存储器的权限。
-TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_YES,允许
-TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_NO,拒绝
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TITLE,????????????
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TEXT,??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_YES,??????
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_NO,??????
 TID_PREVIOUS_STATS_LIST,<LEGACYXP><LEGACYTROPHY><STAT:9><STAT:12><STAT:16><STAT:15><STAT:19><STAT:17><STAT:18>
 TID_PREVIOUS_STAT_LEGACY_TROPHY,<c45319a>Legacy R35 Brawlers - <NBRAWLERS></c>\n\n
-TID_CHINA_YOOZOO_ACCOUNT_OPENID_LOGIN_NOT_ENABLED,此账号已成功完成绑定，请您继续使用原有方式登录，后续登录方式请留意官方公告。
-TID_TENCENT_DOLPHIN_TITLE,检查更新
-TID_TENCENT_DOLPHIN_CHECK_VERSION,检查最新版本
-TID_TENCENT_DOLPHIN_DOWNLOADING_70,安装包更新
-TID_TENCENT_DOLPHIN_DOWNLOADING_71,更新下载配置文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_72,更新下载差异文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_73,更新下载全量文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_74,更新校验完成文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_75,更新校验本地安装包
-TID_TENCENT_DOLPHIN_DOWNLOADING_76,更新校验配置文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_77,更新校验差异文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_78,更新合并差异文件
-TID_TENCENT_DOLPHIN_DOWNLOADING_79,更新校验全量文件
-TID_TENCENT_DOLPHIN_SUCCESS,检查更新完成
-TID_TENCENT_DOLPHIN_ERROR,更新错误<error>
-TID_TENCENT_DOLPHIN_CONFIRM,检查到新版本，请立即更新下载，大约<totalsize>k
-TID_TENCENT_DOLPHIN_INSTALLFAIL,安装失败，请重试
-TID_TENCENT_CDKEY_EXCHANGE,兑换码
-TID_TENCENT_AGREE,同意
-TID_TENCENT_DISAGREE,不同意
-TID_TENCENT_REFUSE,拒绝
-TID_TENCENT_RETURN,返回
-TID_TENCENT_EXIT,退出
-TID_TENCENT_RETRY,重试
-TID_TENCENT_DOLPHIN_ERROR_0,初始化错误
-TID_TENCENT_DOLPHIN_ERROR_1,网络错误，请在网络环境正常下重启游戏。
-TID_TENCENT_DOLPHIN_ERROR_2,网络超时，请在网络环境正常下重启游戏。
-TID_TENCENT_DOLPHIN_ERROR_3,磁盘空间不足，请清理磁盘空间后，重启游戏。
-TID_TENCENT_DOLPHIN_ERROR_4,其他系统错误，请重启手机重试。
-TID_TENCENT_DOLPHIN_ERROR_5,模块其他错误，请重启手机重试。
-TID_TENCENT_DOLPHIN_ERROR_6,当前版本不支持更新，请去应用商店下载最新版本。
-TID_TENCENT_DOLPHIN_ERROR_8,当前环境下载安装包异常，请去应用商店下载最新版本。
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_AGREE,同意
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_REFUSE,拒绝
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE,公告
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE_2,重要提示
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP,各位用户：\n自本日起，本游戏服务将由深圳市腾讯计算机系统有限公司（以下简称\q腾讯计算机公司\q）和深圳市腾讯天游科技有限公司（以下简称\q腾讯天游公司\q）共同提供。\n如您之前未使用本游戏及相关服务，在您使用本游戏的服务前，请您务必审慎阅读、充分理解<TOS> <PP> <CHILDREN> <THIRDPARTY>的各条款，了解我们对您个人信息的处理规则。同时您应特别注意前述协议中免除或者限制我们责任的条款、对您权利进行限制的条款、约定争议解决方式和司法管辖的条款。\n如您之前使用过本游戏及相关服务，您此前与腾讯计算机公司签署的相关游戏用户协议和隐私政策将变更为<TOS> <PP> <CHILDREN> <THIRDPARTY>。同时，为使腾讯计算机公司和腾讯天游公司能共同提供本游戏服务，在您点击下一页面中的\q同意\q按钮后，腾讯计算机公司和腾讯天游公司将共同处理您的个人信息，但对您个人信息的收集、使用范围、保护义务等均不变，且腾讯计算机公司和腾讯天游公司会依法共同承担相应的个人信息保护义务和责任。腾讯计算机公司会在您同意后将之前基于本游戏服务目的收集的有关您在本游戏中的相关信息，提供给腾讯天游公司。\n如您已详细阅读并同意本公告内容以及<TOS> <PP> <CHILDREN> <THIRDPARTY>内容，请点击页面下方的\q同意\q开始使用我们的服务。\n如您有任何问题，请联系腾讯客服（0755-83765566），或通过微信公众号\q腾讯客服\q进行咨询，我们会及时帮助您。\n\n深圳市腾讯计算机系统有限公司\n深圳市腾讯天游科技有限公司\n2023年03月30日
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,尊敬的用户，您需要详细阅读并同意<TOS>、 <PP>、 <CHILDREN>和<THIRDPARTY>才可进入游戏哦。
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_BACK,返回
-TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_NO,拒绝
-TID_TENCENT_DOLPHIN_DOWNLOADING_69,获取版本信息
+TID_TENCENT_CDKEY_EXCHANGE,CDKEY exchange
+TID_TENCENT_AGREE,??????
+TID_TENCENT_DISAGREE,?????????
+TID_TENCENT_REFUSE,??????
+TID_TENCENT_RETURN,??????
+TID_TENCENT_EXIT,??????
+TID_TENCENT_RETRY,??????
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_AGREE,OK
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_REFUSE,EXIT
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE,mandy
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE_2,is this title
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP,candy
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,candy
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_BACK,BACK
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_NO,NO
 TID_DIRECT_PURCHASE_GEM_PACKS_DESC_COLLAB_POINTS,Get <cC5F724><REQUIREDGEMS> more Gems</c> to buy missing Pizza slices
 TID_ACCESSORY_COOKER_GADGET_1_DESC,"Next basic attack shoots burning cookies, dealing <c00cc00><VALUE1></c> extra damage over time."
 TID_ACCESSORY_COOKER_GADGET_2_DESC,Next basic attack shoots perfectly baked cookies ignoring enemies and healing allies for <c00cc00><VALUE1></c> over time instead.
@@ -10966,11 +10932,11 @@ TID_AXE_JUGGLER_OVERCHARGE_DESC,Melodie adds up to <c00cc00><VALUE1></c> Hyperch
 TID_INBOX_LEGACY_SEASON_EMOTES,Donation of a new Pin for having Legacy Rank 35 Brawlers
 TID_INBOX_LEGACY_SEASON_PLAYER_TITLES,Donation of a new Player Title for having Legacy Rank 35 Brawlers
 TID_INBOX_LEGACY_SEASON_SPRAYS,Donation of a new Spray for having Legacy Rank 30 Brawlers
-TID_MORK_FENRIR_BUZZ_SKIN,MØRK FENRIR\nBUZZ
-TID_MORK_FENRIR_BUZZ_SKIN_SHOP,MØRK FENRIR\nBUZZ
+TID_MORK_FENRIR_BUZZ_SKIN,M??RK FENRIR\nBUZZ
+TID_MORK_FENRIR_BUZZ_SKIN_SHOP,M??RK FENRIR\nBUZZ
 TID_EVENT_MODIFIER_DESC_35,All main attacks that hit instantly defeat any Brawler
 TID_HERO_SCORE_INFO_LEADERBOARD_BUTTON,LEADERBOARDS
-TID_SETTINGS_JP_LEGAL_NOTICE,資金決済に基づく表示
+TID_SETTINGS_JP_LEGAL_NOTICE, 
 TID_SHOP_OFFER_TITLE_55,Dead Box
 TID_COLLAB_CLASSIC_STAR_TOKEN_TOOLTIP,Your 1st win in this Event will reward you with Krusty Kash. Spend it in the Krusty Krab during the SpongeBob Event. Events with Krusty Kash rewards refresh daily!
 TID_GAME_MODE_40,SOUL COLLECTOR
@@ -11328,3 +11294,967 @@ TID_COLLAB_6,ARCADE
 TID_TEMP_BRAWLER_AVAILABILITY,ACTIVE UNTIL FEB 4th
 TID_AVAILABILITY_STARRFORCE_SEASONAL,"This STARRFORCE skin is seasonal, only available on certain days every year"
 TID_REPLAY_SHARED_CLUB,REPLAY SHARED TO CLUB
+TID_IDOL_PIPER_PINK_SKIN,IDOL PIPER PINK
+TID_IDOL_PIPER_BLUE_SKIN,IDOL PIPER BLUE
+TID_IDOL_MELODIE_PURPLE_SKIN,IDOL MELODIE PURPLE
+TID_IDOL_MELODIE_RED_SKIN,IDOL MELODIE PINK
+TID_IDOL_PIPER_SKIN_PINK_SHOP,IDOL PIPER PINK
+TID_IDOL_PIPER_SKIN_BLUE_SHOP,IDOL PIPER BLUE
+TID_IDOL_MELODIE_SKIN_PURPLE_SHOP,IDOL MELODIE PURPLE
+TID_IDOL_MELODIE_SKIN_RED_SHOP,IDOL MELODIE RED
+TID_CN_WIDGET_WING_SUNNY,SUNNY
+TID_CN_WIDGET_WING_NIGHT,STARR
+TID_CN_WIDGET_HALO_KITE_SUNNY,SUNNY
+TID_CN_WIDGET_HALO_KITE_NIGHT,MOON
+TID_CN_WIDGET_WING_SUNNY_SHOP,SUNNY
+TID_CN_WIDGET_WING_NIGHT_SHOP,NIGHT
+TID_CN_WIDGET_HALO_KITE_SUNNY_SHOP,SUNNY
+TID_CN_WIDGET_HALO_KITE_NIGHT_SHOP,MOON
+TID_QUEST_DESC_103,??<AMOUNT>?????
+TID_QUEST_DESC_104,??<AMOUNT>?????
+krt,
+TID_SHOP_C_GIFT_RARE,<NUM> Rare Gifts
+TID_SHOP_C_GIFT_SUPER_RARE,<NUM> Super rare gifts
+TID_SHOP_C_GIFT_EPIC,<NUM> Epic gifts
+TID_SHOP_C_GIFT_MYTHIC,<NUM> Mystic gifts
+TID_SHOP_C_GIFT_LEGENDARY,<NUM> Legendary gifts
+TID_TILE_2024_LONG,Dragon King
+TID_K2_TIME_LIMIT_FREE_HERO,LIMITED
+TID_K2_TIME_LIMIT_FREE_HERO_MAIN,LIMITED
+TID_K2_TIME_LIMIT_FREE_HERO_UPGRADE,MAX LEVEL
+TID_K2_TIME_LIMIT_FREE_WHAT_IS_THIS,Limited free brawlers!
+TID_K2_TIME_LIMIT_FREE_INTRO_TITLE_1,Support multiple modes!
+TID_K2_TIME_LIMIT_FREE_INTRO_CONTENT_1,"Can be used for events, leaderboads, ranked and in friendly battle!"
+TID_K2_TIME_LIMIT_FREE_INTRO_TITLE_2,Gaining trophies!
+TID_K2_TIME_LIMIT_FREE_INTRO_CONTENT_2,The number of trophies played during the limited period will be inherited to the current account!
+TID_K2_TIME_LIMIT_FREE_INTRO_TITLE_3,ABOUT RANKED
+TID_K2_TIME_LIMIT_FREE_INTRO_CONTENT_3,Limited brawlers can participate in gold and lower rank ranking matches!
+TID_K2_TIME_LIMIT_FREE_HERO_SCORE_LIMITED,The current free heroes have reached the cup level limit.
+TID_K2_TIME_LIMIT_FREE_HERO_RANK_COUNT,Vaild until:(<REMAIN_TIMES>/<LIMIT_TIMES>)
+TID_K2_TIME_LIMIT_FREE_HERO_EXPIRED,Limited event has ended. Choose another brawler.
+TID_K2_RED_ENVELOP_OPENING_POPUP_GOTO_BUTTON_TEXT,Event opening
+TID_K2_RED_ENVELOP_OPENING_POPUP_HAS_NUMBER_TEXT,Red envelopes remaining: <NUMBER>
+TID_K2_RED_ENVELOP_OPENING_POPUP_NOT_HAVE_TIPS_TEXT,No red envelopes
+TID_K2_RED_ENVELOP_OPENING_POPUP_LOOK_NUMBER_TEXT,Number of people watching your fireworks: <NUMBER>
+TID_K2_RED_ENVELOP_OPENING_POPUP_TOTAL_GET_NUMBER_TEXT,TOTAL: 
+TID_K2_RED_ENVELOP_OPENING_POPUP_CURRENT_EVENT_GET_NUMBER_TEXT,COLLECTED
+TID_K2_RED_ENVELOP_OPENING_POPUP_EVENT_START_TIME_TEXT,Start countdown:\n<TIME>
+TID_K2_RED_ENVELOP_OPENING_POPUP_EVENT_END_TIME_TEXT,Ends in: <TIME>
+TID_K2_RED_ENVELOP_OPENING_POPUP_BOTTOM_RIGHT_EVENT_END_TEXT,This round has ended
+TID_K2_RED_ENVELOP_OPENING_POPUP_BOTTOM_RIGHT_SEASON_END_TEXT,Event has ended
+TID_K2_RED_ENVELOP_OPENING_POPUP_TITLE_TEXT,Open red envelope
+TID_K2_RED_ENVELOP_HOME_SCREEN_OPEN_TEXT,Open red envelope
+TID_K2_RED_ENVELOP_HOME_SCREEN_NOT_START_TEXT,Start after <TIME>\n
+TID_K2_RED_ENVELOP_HOME_SCREEN_NEAR_START_TEXT,<TIME>\nComing soon!
+TID_K2_RED_ENVELOP_HOME_SCREEN_NEAR_END_TEXT,<TIME>\nEnding soon!
+TID_K2_RED_ENVELOP_HOME_SCREEN_EVENT_END_TEXT,Today's event has ended!
+TID_K2_RED_ENVELOP_HOME_SCREEN_SEASON_END_TEXT,Happy lunar new year
+TID_K2_RED_ENVELOP_LOBBY_ROOM_ITEM_NAME,New Year Fireworks
+TID_K2_RED_ENVELOP_LOBBY_ROOM_ITEM_START_TIME_TEXT,Start countdown <TIME>
+TID_K2_RED_ENVELOP_LOBBY_ROOM_ITEM_END_TIME_TEXT,ending in <TIME>
+TID_K2_RED_ENVELOP_LOBBY_MAIN_POPUP_EVENT_GET_TEXT,Obtained this round:
+TID_K2_RED_ENVELOP_INFO_POPUP_TITLE_TEXT,Red envelope description
+TID_K2_RED_ENVELOP_INFO_POPUP_CONTENT_TEXT,"[Event Overview]\nIn the Daily Red Envelope Rain event, players can obtain fireworks props for free and then ""set off fireworks at scheduled times and locations"" in the lobby. After setting off fireworks, red envelopes will descend from the sky, and players can move around to collect them. The red envelopes obtained can be opened on the Red Envelope Rain event interface to receive generous New Year rewards.\n\n[Event Duration]\nEvent Period: January 28, 15:00 ~ February 6, 15:00.\nRed Envelope Rain Schedule (Beijing Time):\nRound 1: 2025/1/28 18:00 - 2025/1/29 02:00.\nRound 2: 2025/1/29 6:00 - 2025/1/29 14:00.\nRound 3: 2025/1/29 20:00 - 2025/1/30 02:00.\nRound 4: 2025/1/30 20:00 - 2025/1/31 02:00.\nRound 5: 2025/1/31 20:00 - 2025/2/1 02:00.\nRound 6: 2025/2/1 20:00 - 2025/2/2 02:00.\nRound 7: 2025/2/2 20:00 - 2025/2/3 02:00.\nRound 8: 2025/2/3 20:00 - 2025/2/4 02:00.\nRound 9: 2025/2/4 20:00 - 2025/2/5 02:00.\n\n[Participation Guide]\nDuring the event period, players can obtain fireworks for free by logging in and completing tasks. Fireworks can be set off at designated firing points during the Red Envelope Rain time slots, summoning red envelopes that players can collect together. The collected red envelopes can be opened on the Daily Red Envelope Rain event interface to receive generous New Year rewards.\nThere are two ways to set off fireworks at the ""designated firing points"":\n1. At the top of the district list, click to enter the [New Year Fireworks Designated Firing Point] to enjoy setting off fireworks during the Red Envelope Rain time slots.\n2. Fireworks can be set off when a personal district reaches 10 players.\nPlayers are strongly encouraged to go to the designated firing points so everyone can enjoy the beautiful fireworks together.\n\n[Special Notes]\n1. Each firework can yield up to 5 red envelopes.\n2. A maximum of 25 red envelopes can be obtained per round of Red Envelope Rain.\n3. Each player can obtain a maximum of 200 red envelopes during the event.\n4. Red envelopes that are not opened by the end of the event will be reclaimed by the God of Wealth, so please make sure to open all the red envelopes you have obtained in time.\n\nLastly, we wish you prosperity and a rain of red envelopes! Happy Chinese New Year!\n"
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_1,not in the lobby
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_2,Client request error
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_3,Server internal error
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_4,Fireworks can only be set off at certain times~
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_5,The event has not started or has ended
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_6,Fireworks can only be set off at certain times~
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_7,Not enough fireworks
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_8,The concentration of red envelopes in the current block has exceeded the standard. Please queue up to burn them and try again later~
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_9,Red envelope has expired
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_10,Red envelope has expired
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_11,The red envelope has been collected
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_12,You have received <NUM> red envelopes and graduated early. Don?t forget to open the red envelopes~
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_13,You had received <NUM> red envelopes in this game and there is no room for them in our pockets. Let's open the red envelopes first~
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_14,"You have collected 5 red envelopes in the same fireworks, please leave some for your brothers~"
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_15,Unofficial blocks require more than 10 people to set off fireworks~
+TID_K2_LOBBY_REDENVELOPE_RSP_ERROR_SPECIAL,Game has been filled with red envelopes~
+TID_k2_NO_FIREWORK_IN_CLIENT,Not enough fireworks
+TID_K2_LOBBY_AUTO_CREATED_NAME,
+TID_K2_RED_ENVELOPE_CONVERSION,The event is over and the red envelopes have disappeared~\n<AMOUNT> red envelopes have been converted into <NUM> coins.
+TID_QUEST_DESC_103,Set off <AMOUNT> fireworks
+TID_QUEST_DESC_104,Receive <AMOUNT> envelopes
+TID_NEZHA_GOLD_SKIN,NEZHA GOLD EDGER
+TID_NEZHA_WHITE_SKIN,NEZHA WHITE EDGER
+TID_YANGJIAN_BLACK_SKIN,YANGJIAN BLACK MORTIS
+TID_YANGJIAN_WHITE_SKIN,YANGJIAN WHITE MORTIS
+TID_NINJASNAKE_SKIN,NINJA SNAKE LEON
+TID_NINJASNAKE_SKIN_SHOP,NINJA SNAKE LEON
+TID_NEZHA_GOLD_SKIN_SHOP,NEZHA GOLD EDGER
+TID_NEZHA_WHITE_SKIN_SHOP,NEZHA WHITE EDGER
+TID_YANGJIAN_BLACK_SKIN_SHOP,YANGJIAN BLACK MORTIS
+TID_YANGJIAN_WHITE_SKIN_SHOP,YANGJIAN WHITE MORTIS
+TID_TILE_2025_RICH,Sigma sigma boy
+TID_CN_WIDGET_WING_LIGHT_A,转灯·宫
+TID_CN_WIDGET_WING_LIGHT_B,转灯·商
+TID_CN_WIDGET_WING_LIGHT_C,转灯·角
+TID_CN_WIDGET_WING_LIGHT_D,转灯·徵
+TID_CN_WIDGET_WING_LIGHT_E,转灯·羽
+TID_SPEEDYPILOT_SKIN,ACE PILOT MAX
+TID_SPEEDYPILOT_SKIN_SHOP,ACE PILOT MAX
+TID_JETPACKGIRLAIRCRAFT_SKIN,FIGHTER NO.6 JANET
+TID_JETPACKGIRLAIRCRAFT_SKIN_SHOP,FIGHTER NO.6 JANET
+TID_DEAD_MARIACHI_WEAPON_DESC,"Poco strums his guitarrón, sending forward bone-jarring sound waves. Enemies hit by the waves take damage."
+TID_BOW_DUDE_OVERCHARGE,CATCH A BEAR
+TID_BOW_DUDE_OVERCHARGE_DESC,"Bo's Super deploys 5 mines instead of 3. These do not override any mines already placed by his Super, so it is possible to have more than 7 mines on the map!"
+TID_MINIGUN_DUDE_OVERCHARGE,Pam overcharge (wip)
+TID_MINIGUN_DUDE_OVERCHARGE_DESC,Pam overcharge description (wip)
+TID_TIME_MONTHS,M
+TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_LESS_THAN_HOUR,Last online:\n<cf7f7f7><less_than_h_ago></c>
+TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_HOURS,Last online:\n<cf7f7f7><HOURS>h ago</c>
+TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_DAYS,Last online:\n<cf7f7f7><DAYS>d ago</c>
+TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_LONG,Last online:\n<cf7f7f7>> 1 month ago</c>
+TID_ABOUT,Credits\n\n<names>\n\nBrawl Stars ™ <version>\nCopyright 2016-2025 Supercell Ltd. All Rights Reserved.\n<extracopyright>\n<terms>
+TID_HINT_HOLD_THE_BALL_TAKE_BALL,Get the <cdaa520>Present</c>!
+TID_HINT_HOLD_THE_BALL_PROTECT,Protect the <cdaa520>Present</c> carrier!
+TID_HINT_HOLD_THE_BALL_HOLD_ON,Hold on to the <cdaa520>Present</c>!
+TID_WHIRLWIND_OVERCHARGE,FLAMESPIN
+TID_WHIRLWIND_OVERCHARGE_DESC,Carl gains a flame trail that follows him when his Super is activated.
+TID_IAP_INFO_TEXT,"청약철회는 구매일로부터 7일 이내 가능(단, 사용시 철회불가) 법정대리인 동의 없는 미성년자명의 결제 시 취소가능"
+TID_HERO_DISABLED_CURRENTLY,This Brawler is currently unavailable
+TID_HERO_DISABLED_CURRENTLY_PRINT,This Brawler is currently unavailable. Try again later!
+TID_HERO_DISABLED_CURRENTLY_START_GAME,This Brawler is currently unavailable. Pick another Brawler!
+TID_NEWS_TAB_VIDEOS_LIVESTREAM_CHINA,视频/直播
+TID_IAP_INFO_MORE_INFO_BTN,자세히보기
+TID_BEE_SNIPER_OVERCHARGE,PROTECT THE QUEEN
+TID_BEE_SNIPER_OVERCHARGE_DESC,"Bea's Super projectiles split into 2 when at max distance (and on hit), increasing her Super's distance and spread even more."
+TID_GAME_MODE_16_DESC,"Grab Presents from the opposing team and bring them to your base! Match ends when one team has captured two Presents, or when time runs out."
+TID_CTF_INTRO_TEXT,Grab two Presents to win
+TID_HINT_CTF_STEAL_GIFT,Grab the opposing team's Present!
+TID_HINT_CTF_BRING_GIFT_BACK,Bring the Present back to your base!
+TID_CTF_GOAL,<name>\nstole a Present!
+TID_CTF_GOAL_MATCH_OVER,<name>\nstole a Present!\n\nMatch over
+TID_SPAWNER_DUDE_OVERCHARGE,SUPER PORTERS! ASSEMBLE!
+TID_SPAWNER_DUDE_OVERCHARGE_DESC,Mr. P's home base now spawns much stronger porters and he can have two active ‘Super Porters' at the same time.
+TID_YOOZOO_LOGIN_DESC,yoozoo
+TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_1,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
+TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_2,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
+TID_ANTIADDICTION_NO_REAL_NAME_VERIFIED_3,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
+TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_1,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
+TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_2,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
+TID_ANTIADDICTION_ADULTHOOD_NOT_FULFILLED_3,由于您是未成年人，根据国家防沉迷系统的要求，您在此时段无法进行游戏
+TID_CHINESE_APP_STORE_CONFLICT_MESSAGE,此微信/QQ账号已经关联了从其他安卓应用商店下载的相同游戏，不能再次关联。如果您希望使用该微信/QQ账号重新开始游戏，请从游戏内联系Supercell玩家支持团队。
+TID_QUALIFIED_TITLE_CHINA,线上资格赛已解锁！
+TID_QUALIFIED_INFO_CHINA,您已成功完成全球锦标赛挑战，真棒！\n您可以前往<cFFE400><URL></c>，通过引导完成赛事报名，继续荒野乱斗全球锦标赛之旅！
+TID_CHINA_LOGIN_DESC,this is china login desc
+TID_PRO_LEAGUE_INFO_POPUP_RANK_INFO_CN,跻身排行榜前列\n可获得的额外奖励
+TID_PRO_LEAGUE_POPUP_INFO_CN,在星徽竞技场中证明自己的实力！每天可参加3场星徽竞技场对战，在赛季排行榜上冲击更高排名。赛季结束后，您将根据自己的积分和在排行榜上的排名获得星光点数奖励。
+TID_QUALIFIED_INFO_CN,您已成功完成全球锦标赛挑战，真棒！\n您可以前往<cFFE400><URL></c>，通过引导完成赛事报名，继续荒野乱斗全球锦标赛之旅！
+TID_PRIVACY_POLICY_BUTTON_TENCENT,荒野乱斗隐私保护指引
+TID_TENCENT_LOGIN_AGREEMENTS,"tap this"
+TID_TENCENT_LOGIN_PP,荒野乱斗隐私保护指引
+TID_TENCENT_LOGIN_BS_PP,荒野乱斗隐私保护指引
+TID_TENCENT_LOGIN_SPECIAL_TOS,《腾讯游戏许可及服务协议》
+TID_TENCENT_LOGIN_SPECIAL_OLD_PP,《腾讯游戏隐私保护指引》
+TID_TENCENT_LOGIN_SPECIAL_BS_PP,《荒野乱斗隐私保护指引》
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_1_TITLE,更新提示
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_1,尊敬的腾讯游戏用户：\n为充分保障您的权利及个人信息安全，我们根据法律法规要求，\n对<OLDPP>进行了更新。我们结合本产品和业务实际，更详细、具体地向您说明我们收集和使用您个人信息的业务场景及目的，具体可参见<PP>内更新提示。\n您也可以阅读完整版\n<PP>和<TOS>\n了解详尽的个人信息处理规则和用户权利义务。如您已详细阅读并tap me\n<TOS>和<PP>，\n请点击\qtap me\q继续使用我们的服务。
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_OLD_ACCT_2,尊敬的用户，您需要详细阅读并tap me\n<TOS>、<PP>、\n<CHILDREN>和<THIRDPARTY>，\n才可进入游戏哦。
+TID_EL_ATOMICO_SKIN,EL ATÓMICO
+TID_EL_ATOMICO_SKIN_SHOP,EL ATÓMICO
+TID_COMPETITIVEPASS_ALREADY_UNLOCKED_COMPENSATION_INFO,"Pro Pass had already been unlocked at the time of processing your purchase. As compensation, <NUM> Gems have been added to your account."
+TID_COMPETITIVEPASS_ALREADY_UNLOCKED_COMPENSATION_INFO_TITLE,PRO PASS ALREADY UNLOCKED
+TID_ENTER_AGE_TIP_NUM_PAD,"Invalid age entered, please try again"
+TID_JAN2021MAPS_3,Arène en folie
+TID_MECHA_DUDE_OVERCHARGE,TUNGSTEN TOUGHNESS
+TID_MECHA_DUDE_OVERCHARGE_DESC,"Meg's Mecha has an increased swipe range when activating its Super. While out of the Mecha, Meg pops a defensive shield for protection."
+TID_CERRO_PORTENO_COLT_SKIN,CERRO PORTEÑO COLT
+TID_CERRO_PORTENO_COLT_SKIN_SHOP,CERRO PORTEÑO\nCOLT
+TID_AVOID_POISON_PRC,请寻找安全去！
+TID_EVENT_POPUP_GAME_MODE_6_SOLO_DUO_PRC,独自作战
+TID_SHOWDOWN_END_PRC,决赛圈！
+TID_CHINA_LOGIN_AA_POPUP_DESC,1）本游戏是一款多人实时对战类游戏，适用于年满12周岁及以上的用户，\n建议未成年人在家长监护下使用游戏产品。\n\n2）游戏无明显背景，需要玩家操作各种英雄与队友配合取得胜利，\n游戏有丰富多样的玩法，包含角色养成、竞技等，需要投入一定的时间和精力。\n游戏中存在基于文字的陌生人社交系统，且社交系统的管理遵循相关法律法规。\n\n3）本游戏中有用户实名认证系统，认证为未成年人的用户将接受以下管理：\n游戏中部分玩法和道具需要付费。未满8周岁的用户不能付费；8周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。未成年人用户每日22点到次日8点不得使用，法定节假日每天不得使用超过3小时，其他时间每天不得使用超过1.5小时。\n\n4）游戏以竞技为主题，画面精美，玩法多样，能够带给玩家轻松愉悦的游戏氛围，\n游戏中的排位赛有助于调动玩家的积极情绪，在比赛中获胜能够提升玩家的自信心。\n游戏提供了丰富的社交系统，包括战队、好友等，玩家之间可以互相交流，互相配合，\n共同完成游戏任务，有助于促进玩家的社会交流，维持良好的社群关系。
+TID_CHINA_LOGIN_AA_POPUP_TITLE,提示说明
+TID_EL_DRAGON_VERDE_SKIN,EL DRAGÓN VERDOSO
+TID_EL_DRAGON_VERDE_SKIN_SHOP,EL DRAGÓN\nVERDOSO
+TID_EL_DRAGON_ROSADO_SKIN,EL DRAGÓN ROSADO
+TID_EL_DRAGON_ROSADO_SKIN_SHOP,EL DRAGÓN\nROSADO
+TID_CHINA_LOGIN_AA_POPUP_DESC_TENCENT,1）本游戏是一款多人实时对战类游戏，适用于年满12周岁及以上的用户，\n建议未成年人在家长监护下使用游戏产品。\n\n2）游戏无明显背景，需要玩家操作各种英雄与队友配合取得胜利，\n游戏有丰富多样的玩法，包含角色养成、竞技等，需要投入一定的时间和精力。\n游戏中存在基于文字的陌生人社交系统，且社交系统的管理遵循相关法律法规。\n\n3）根据国家相关要求，游戏中有用户实名认证系统，未通过实名认证的用户不可进入游戏；\n认证为未成年人的用户除周五、周六、周日及法定节假日每日20时至21时外其他时间均不可进入游戏。游戏中部分玩法和道具需要付费。根据腾讯健康系统管理规定，认证为未成年人的用户将接受以下管理：未满12周岁的用户不能付费；12周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。\n\n4）游戏以竞技为主题，画面精美，玩法多样，能够带给玩家轻松愉悦的游戏氛围，\n游戏中的排位赛有助于调动玩家的积极情绪，在比赛中获胜能够提升玩家的自信心。\n游戏提供了丰富的社交系统，包括战队、好友等，玩家之间可以互相交流，互相配合，\n共同完成游戏任务，有助于促进玩家的社会交流，维持良好的社群关系。
+TID_CHINA_LOGIN_AA_POPUP_DESC_YOOZOO,1）本游戏是一款多人实时对战类游戏，适用于年满12周岁及以上的用户，\n建议未成年人在家长监护下使用游戏产品。\n\n2）游戏无明显背景，需要玩家操作各种英雄与队友配合取得胜利，\n游戏有丰富多样的玩法，包含角色养成、竞技等，需要投入一定的时间和精力。\n游戏中存在基于文字的陌生人社交系统，且社交系统的管理遵循相关法律法规。\n\n3）本游戏中有用户实名认证系统，认证为未成年人的用户将接受以下管理：\n游戏中部分玩法和道具需要付费。未满8周岁的用户不能付费：8周岁以上未满16周岁的未成年人用户，单次充值不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。未成年人仅可在周五、周六、周日和法定节假日每日20时至21时体检1小时网络游戏服务。\n\n4）游戏以竞技为主题，画面精美，玩法多样，能够带给玩家轻松愉悦的游戏氛围，\n游戏中的排位赛有助于调动玩家的积极情绪，在比赛中获胜能够提升玩家的自信心。\n游戏提供了丰富的社交系统，包括战队、好友等，玩家之间可以互相交流，互相配合，\n共同完成游戏任务，有助于促进玩家的社会交流，维持良好的社群关系。
+TID_GEAR_FOREST_SPEED_INFO,Gain <c00cc00><NUM></c>% SPEED INCREASE when moving in bushes.
+TID_GEAR_STANDING_HEAL_INFO,RECOVER HEALTH <c00cc00><NUM></c>% more effectively
+TID_GEAR_LOW_HEALTH_DAMAGE_INFO,Deal <c00cc00><NUM></c>% EXTRA DAMAGE when your Brawler is below <c00cc00>50%</c> Health.
+TID_GEAR_VISION_INFO,REVEAL opponents for <c00cc00><NUM></c> seconds after dealing damage to them.
+TID_GEAR_SHIELD_INFO,"Gain extra <c00cc00><NUM></c> HEALTH as a consumable SHIELD. The shield regenerates in <c00cc00>10</c> seconds, when at full health."
+TID_GEAR_RELOAD_SPEED_INFO,<c00cc00><NUM></c>% faster RELOAD
+TID_GEAR_SUPER_CHARGE_INFO,Super CHARGES <c00cc00><NUM></c>% FASTER
+TID_GEAR_LOW_HEALTH_DAMAGE_UPGRADE_INFO,Extra DAMAGE when below <c00cc00>50%</c> health
+TID_GEAR_SUPER_HEALTH_INFO,Tick's Head gains <c00cc00><NUM></c> EXTRA HEALTH.
+TID_GEAR_POISON_DURATION_INFO,Increases Crow's poison damage by <c00cc00><NUM></c>%.
+TID_GEAR_SLOW_INCREASE_INFO,Spike's Super slows <c00cc00><NUM></c>% more effectively.
+TID_GEAR_SMOKE_DURATION_INFO,Leon's Smoke Bomb lasts <c00cc00><NUM></c> seconds longer.
+TID_GEAR_SUPER_SHIELD_INFO,Enemies inside of Sandy's Sandstorm deal <c00cc00><NUM></c>% less damage.
+TID_GEAR_ULTI_DURATION_TITLE,SUPER DURATION (wip)
+TID_GEAR_ULTI_DURATION_INFO,Super duration increased by <c00cc00><NUM></c>% (wip)
+TID_GEAR_ULTI_DURATION_UPGRADE_INFO,Increases Super duration further (wip)
+TID_GEAR_ULTI_DURATION_UPGRADE_TARGET,Super duration (wip)
+TID_GEAR_PET_DAMAGE_INFO,Pet power increased by <c00cc00><NUM></c>%
+TID_GEAR_EXTRA_SPAWNLING_INFO,Eve's Super spawns <c00cc00><NUM></c> extra hatchling
+TID_GEAR_SUPER_TURRET_INFO,Increases the healing of Pam's turret by <c00cc00><NUM></c>%
+TID_GEAR_PETROL_SLOWS_INFO,Amber's oil spills now also slow down enemies by <c00cc00><NUM></c>%.
+TID_GEAR_GADGET_COOLDOWN_TITLE,GADGET COOLDOWN
+TID_GEAR_GADGET_COOLDOWN_INFO,Reduces Gadget cooldown by <c00cc00><NUM></c>%
+TID_GEAR_GADGET_COOLDOWN_UPGRADE_INFO,Reduces Gadget cooldown
+TID_GEAR_GADGET_COOLDOWN_UPGRADE_TARGET,Gadget cooldown
+TID_SURGE_KONG_SKIN_SHOP,SURGE\nKONG
+TID_CLASSIC_MIKE_SKIN,CLASSIC DYNAMIKE
+TID_CLASSIC_MIKE_SKIN_SHOP,CLASSIC\nDYNAMIKE
+TID_EL_PRIMO_VALENTINES,EL CORAZÓN
+TID_EL_PRIMO_VALENTINES_SHOP,EL\nCORAZÓN
+TID_ACCESSORY_DUPLICATOR_SWAP_DESC,"Lola and her Ego switch locations, both recovering <c00cc00><VALUE1></c> health."
+TID_TREASURE_ONE_FROM_VICTORY,One Treasure from victory!
+TID_TREASURE_ONE_FROM_DEFEAT,One Treasure from defeat!
+TID_TREASURE_TWO_FROM_VICTORY,Two Treasures from victory!
+TID_TREASURE_TWO_FROM_DEFEAT,Two Treasures from defeat!
+TID_LOGIN_CALENDAR_AVAILABLE_IN_TIMER,<TIME>
+TID_LOGIN_CALENDAR_CARD_AVAILABLE_IN_TIMER,<TIME>
+TID_CHINA_LOGIN_DESC_YOOZOO,本公司积极履行《网络游戏行业防沉迷自律公约》抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。沪网文【2018】8544-517号、新出网证（沪）字33号 著作权人：SUPERCELL OY 出版单位：上海游族信息技术有限公司 运营单位：上海游族信息技术有限公司 批准文号：国新出审【2020】552号 出版物号：ISBN 978-7-498-07472-0
+TID_YOOZOO_LOGIN_AGREEMENTS,"I have carefully read and agree with <TOS>, <PP>, <CHILDREN> and <THIRDPARTY>."
+TID_SOUL_COLLECTOR_OVERCHARGE,Gus Hypercharge (WIP)
+TID_SOUL_COLLECTOR_OVERCHARGE_DESC,Gus Hypercharge Description (WIP)
+TID_FIRST_GADGET_TUTORIAL_3_DESC,Use your equipped Gadget in matches when it is charged
+TID_FIRST_GADGET_TUTORIAL_3_x3,∞
+TID_JESTER_OVERCHARGE,"CRUNCHY, CHEWY, GOOEY"
+TID_JESTER_OVERCHARGE_DESC,"Chester combines 3 of his Super abilities into one. He throws a sweet that explodes and deals damage, spreads a poison cloud, and leaves a lingering slowing area to finish."
+TID_BEAMER_OVERCHARGE,SUGAR FOR ALL!
+TID_BEAMER_OVERCHARGE_DESC,Mandy fires her Super in three different directions.
+TID_PINATA_ASH_SKIN,PIÑATA ASH
+TID_PINATA_ASH_SKIN_SHOP,PIÑATA ASH
+TID_CHINA_YOOZOO_EXTRA_PRIVACY_BUTTON,个人信息收集清单
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TITLE,重要提示
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TEXT,为方便您与客服交流，如需要提供已拍摄照片或截图，我们需要获取您设备的相册权限，以及读取存储器的权限。
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_YES,允许
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_NO,拒绝
+TID_SPEC_ABI_PUPPETEER_1_DESC,Lantern's Curse also reduces reload speed of affected brawlers by <c00cc00><VALUE1>%</c> for <c00cc00><VALUE2></c> seconds.
+TID_CHINA_YOOZOO_ACCOUNT_OPENID_LOGIN_NOT_ENABLED,此账号已成功完成绑定，请您继续使用原有方式登录，后续登录方式请留意官方公告。
+TID_TENCENT_DOLPHIN_TITLE,检查更新
+TID_TENCENT_DOLPHIN_CHECK_VERSION,检查最新版本
+TID_TENCENT_DOLPHIN_DOWNLOADING_70,安装包更新
+TID_TENCENT_DOLPHIN_DOWNLOADING_71,更新下载配置文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_72,更新下载差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_73,更新下载全量文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_74,更新校验完成文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_75,更新校验本地安装包
+TID_TENCENT_DOLPHIN_DOWNLOADING_76,更新校验配置文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_77,更新校验差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_78,更新合并差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_79,更新校验全量文件
+TID_TENCENT_DOLPHIN_SUCCESS,检查更新完成
+TID_TENCENT_DOLPHIN_ERROR,更新错误<error>
+TID_TENCENT_DOLPHIN_CONFIRM,检查到新版本，请立即更新下载，大约<totalsize>k
+TID_TENCENT_DOLPHIN_INSTALLFAIL,安装失败，请重试
+TID_TENCENT_CDKEY_EXCHANGE,兑换码
+TID_TENCENT_AGREE,tap me
+TID_TENCENT_DISAGREE,不tap me
+TID_TENCENT_REFUSE,拒绝
+TID_TENCENT_RETURN,返回
+TID_TENCENT_EXIT,退出
+TID_TENCENT_RETRY,重试
+TID_TENCENT_DOLPHIN_ERROR_0,初始化错误
+TID_TENCENT_DOLPHIN_ERROR_1,网络错误，请在网络环境正常下重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_2,网络超时，请在网络环境正常下重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_3,磁盘空间不足，请清理磁盘空间后，重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_4,其他系统错误，请重启手机重试。
+TID_TENCENT_DOLPHIN_ERROR_5,模块其他错误，请重启手机重试。
+TID_TENCENT_DOLPHIN_ERROR_6,当前版本不支持更新，请去应用商店下载最新版本。
+TID_TENCENT_DOLPHIN_ERROR_8,当前环境下载安装包异常，请去应用商店下载最新版本。
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_AGREE,tap me
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_REFUSE,拒绝
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE,this is tid tencent login cps agreement popup title
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE_2,重要提示
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP,hi
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,尊敬的用户，您需要详细阅读并tap me<TOS>、 <PP>、 <CHILDREN>和<THIRDPARTY>才可进入游戏哦。
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_BACK,返回
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_NO,拒绝
+TID_TENCENT_DOLPHIN_DOWNLOADING_69,获取版本信息
+TID_FISHTANK_OVERCHARGE,HOMING FISH-ILES
+TID_FISHTANK_OVERCHARGE_DESC,The Fish Torpedoes that Hank fires with his Super have been upgraded to home in on targets!
+TID_OVERCHARGE_NOT_RELEASED,Coming soon...
+TID_BATTLE_LOG_SHARE_REPLAY_PROMPT_DESC,Share this replay to your Club chat?
+TID_RANKED_BAN_A_BRAWLER_TITLE,BAN A BRAWLER
+TID_GEMGRAB_DOUBLE_MINE_INTRO_TEXT,Grab 20 gems to win
+TID_TWINS_OVERCHARGE,SYNERGY (wip)
+TID_RANKED_MASTERS_DESCRIPTION,Reach PRO to compete for Global Rankings
+TID_MORK_FENRIR_BUZZ_SKIN,MØRK FENRIR\nBUZZ
+TID_MORK_FENRIR_BUZZ_SKIN_SHOP,MØRK FENRIR\nBUZZ
+TID_RANKED_DIAMOND_FORMAT_TOOLTIP,New Ranked format reached! Players will <cF01A1A>BAN</c> a Brawler first before picking
+TID_AMBUSHER_OVERCHARGE_DESC,(WIP) Flourish projectile transports Lily and the target to Shadowrealm for <c00cc00><VALUE1></c> seconds
+TID_SETTINGS_JP_LEGAL_NOTICE,資金決済に基づく表示
+TID_DIGGER_DRILL_DESC,Driller description placeholder. This line does not show up in game.
+TID_GAME_MODE_41,CLEANING DUTY
+TID_GAME_MODE_41_DESC,Starr Park is littered with Trash! Keep the park tidy by picking up as much Trash as possible. The team that picks up the most <c66ff66>Trash</c> wins!
+TID_JELLY_CATCH_INTRO_TEXT,Pick up the Trash!
+TID_JELLY_CATCH_RED_X_LEFT,<AMOUNT> Trash from defeat!
+TID_JELLY_CATCH_BLUE_X_LEFT,<AMOUNT> Trash from victory!
+TID_HERO_INFO_BUY_MISSING_COLLAB_POINTS_GEMS2,Get <MISSINGGEMS> more Gems to buy missing Pizza Slices
+TID_JELLY_CATCH_571,Rubbish Rampage
+TID_JELLY_CATCH_572,Trash Bash
+TID_JELLY_CATCH_573,Dumpster Drive
+TID_JELLY_CATCH_574,Waste Haven
+TID_JELLY_CATCH_575,In The Bins
+TID_JELLY_CATCH_576,Garbage Yard
+TID_JELLY_CATCH_577,Litterbug Lane
+TID_TRUE_GOLD_SAMURAI_SKIN_SHOP,TRUE GOLD\nKENJI
+TID_TRUE_SILVER_SAMURAI_SKIN_SHOP,TRUE SILVER\nKENJI
+TID_TRUE_GOLD_DIGGER_SKIN_SHOP,TRUE GOLD\nMOE
+TID_TRUE_SILVER_DIGGER_SKIN_SHOP,TRUE SILVER\nMOE
+TID_CROW_FREEDOM_SKIN_SHOP,FREEDOM\nCROW
+TID_MEEPLE_DESC,Meeple knows the rules to every board game in existence and if you break them... Well let's just say you don't want to break them. They hate cheaters and those who break the rules. There's only one exception... Meeple themselves!
+TID_MEEPLE_WEAPON_DESC,Meeple shoots a powerful projectile that slightly homes towards the nearest enemy.
+TID_MEEPLE_GADGET_2_DESC,"Meeple lashes out in rage at nearby enemies, stunning and knocking them back. Ragequit stuns for a longer period of time and knocks back further, the fewer hitpoints Meeple has."
+TID_SKATER_ULTI_DESC,"Ollie dashes forward with a gnarly hoverboard trick and starts charging a music blast, dealing <c00cc00><VALUE1></c> damage and hypnotizing all enemies around him for <c00cc00><VALUE2></c> seconds. While charging his music blast, Ollie will use up to <c00cc00><VALUE3></c>% of his max ammo. Enemies will move towards Ollie and cannot be controlled while being hypnotized."
+TID_HINT_SPECIAL_DELIVERY,Push the cart to the enemy side by staying near it!
+TID_BERRY_STAR_HORSE_SKIN,STARRHORSE BERRY
+TID_BERRY_STAR_HORSE_SKIN_SHOP,STARRHORSE\nBERRY
+TID_POCO_QUITE_PLAYING_SKIN_SHOP,QUIT PLAYING\nPOCO
+TID_CLUB_PIGGY_BANK_XMAS_INFO_TEXT_3,Open your share of the Presents at the end of the Event!
+TID_MORNINGSTAR,LUMI
+TID_MORNINGSTAR_SHORT_DESC,DAMAGE DEALER
+TID_MORNINGSTAR_DESC,"A passionate metalhead and a talented drummer, Lumi traded her drumsticks for morning stars when she got her job at Starr Park. She controls elements of ice and fire, which reflects her shy nature and her burning passion for music!"
+TID_MORNINGSTAR_WEAPON,GOOD MORNING... STAR
+TID_MORNINGSTAR_WEAPON_DESC,"Lumi throws one of her morning stars. She can throw both of her weapons, with her third attack recalling them, dealing damage to any enemies caught in their path!"
+TID_MORNINGSTAR_ULTI,BLAST BEAT
+TID_MORNINGSTAR_ULTI_DESC,"Lumi pounds the ground three times, causing explosions that deal area damage. The third explosion briefly snares enemies, making them unable to move but still able to attack."
+TID_MORNINGSTAR_SP_1,42% BURNT
+TID_MORNINGSTAR_SP_1_DESC,The explosions from Lumi's Blast Beat also set the area alight for <c00cc00><VALUE1></c> seconds. Fire damage also scales with explosion damage. Damage per second for the biggest explosion: <c00cc00><VALUE2></c>
+TID_MORNINGSTAR_SP_2,HALF-TIME
+TID_MORNINGSTAR_SP_2_DESC,Lumi slows enemies hit by her recalled morning stars for <c00cc00><VALUE1></c> seconds.
+TID_MORNINGSTAR_GADGET_1,HIT THE LIGHTS
+TID_MORNINGSTAR_GADGET_1_DESC,"Lumi iginites her morning stars on the ground, producing flames which damage nearby enemies for <c00cc00><VALUE1></c> seconds. Damage per second: <c00cc00><VALUE2></c>"
+TID_MORNINGSTAR_GADGET_2,GRIM AND FROSTBITTEN
+TID_MORNINGSTAR_GADGET_2_DESC,"Lumi creates freezing winds around her morning stars on the ground, creating a slippery surface for <c00cc00><VALUE1></c> secs. Damage per second: <c00cc00><VALUE2></c>"
+TID_RECALL_DAMAGE,Recall damage
+TID_STAT_BIG_EXPLOSION_DAMAGE,Biggest explosion damage
+TID_DAMAGE_INCREASE_PERCENT,Damage increase per explosion
+TID_DAMAGE_ROOT_TIME,Rooted time
+TID_TITLE_MASTERY_LUMI,Headbanger
+TID_DUPLICATOR_OVERCHARGE,INFLATED EGO
+TID_DUPLICATOR_OVERCHARGE_DESC,Spawns a mega inflated Ego with increased health and damage!
+TID_CHRONOMANCER,FINX
+TID_CHRONOMANCER_DESC,"The owner of Starr Park's escape room, Finx is meant to help visitors complete tasks. Instead, he uses his time controlling abilities to cause mischief! Also, he LOVES cats."
+TID_CHRONOMANCER_WEAPON,CHRONOCAST
+TID_CHRONOMANCER_WEAPON_DESC,"Finx fires <c00cc00>3</c> long range projectiles, with the outer ones dealing <c00cc00>50%</c> of the damage of the center projectile."
+TID_CHRONOMANCER_ULTI,TIME WARP
+TID_CHRONOMANCER_ULTI_DESC,"Finx warps time in an area, decreasing the projectile speed of enemy Brawlers caught in the Super, while increasing the projectile speed of any teammates and himself. Finx's projectiles will also get a damage buff."
+TID_CHRONOMANCER_SP_1,HIEROGLYPH HALT
+TID_CHRONOMANCER_SP_1_DESC,Finx reduces the reload speed of any enemy Brawlers hit by his main attack by <c00cc00><VALUE1>%</c> for <c00cc00><VALUE2></c> seconds.
+TID_CHRONOMANCER_SP_2,PRIMER
+TID_CHRONOMANCER_SP_2_DESC,"Damage dealt only from Finx's projectiles that are sped up by Time Warp, will increase the Super duration by <c00cc00><VALUE1></c> seconds each."
+TID_CHRONOMANCER_GADGET_1,BACK TO THE FINXTURE
+TID_CHRONOMANCER_GADGET_1_DESC,"Finx steps back in time, returning to the position and ammo he had <c00cc00><VALUE1></c> seconds ago."
+TID_CHRONOMANCER_GADGET_2,NO ESCAPE
+TID_CHRONOMANCER_GADGET_2_DESC,"Finx's next center projectile from his main attack freezes the enemy in time for <c00cc00><VALUE1></c> seconds, making them unable to take actions for the duration, but also making them immune to any damage."
+TID_TITLE_MASTERY_FINX,Waste of time
+TID_COMPETITIVE_PASS_TITLE,PRO PASS
+TID_COMPETITIVE_PASS_SEE_REWARDS,SEE REWARDS
+TID_COMPETITIVE_PASS_PREMIUM,PRO PASS
+TID_CROSS_BOMBER_OVERCHARGE,GROM BOMB GOES BOOM!
+TID_CROSS_BOMBER_OVERCHARGE_DESC,"Grom's Super gains a secondary explosion after the first, in an X-pattern. This explosion also deals damage, breaks walls and knocks enemies back."
+TID_SHIELD_TANK_OVERCHARGE,PLOT ARMOR
+TID_SHIELD_TANK_OVERCHARGE_DESC,Buster's shield is now 360 degrees around him and reflected projectiles deal more damage!
+TID_GAME_MODE_55,UNO
+TID_GAME_MODE_55_DESC,Play your cards by taking them to the discard pile. The first team with no cards remaining wins!\n\nAction cards trigger special effects:\n<cAAFFAA>Draw two - Team members gain 2 power cubes</c>\n<cFFFF00>Skip - Enemy can't shoot for the next 3 seconds</c>\n<cFFAAAA>Reverse - Moves enemy cards back to base</c>\n\nPro Tip: You can body block flying enemy cards!
+TID_UNO_INTRO_TEXT,Discard cards to win!
+TID_PUPPETEER_OVERCHARGE,MIND LOCK
+TID_PUPPETEER_OVERCHARGE_DESC,Willow gains an invulnerability shield on landing her Hex. She remains shielded until the Hex is broken.
+TID_AGE_GATE_TITLE,AGE VERIFICATION
+TID_AGE_GATE_PROMPT,Please enter your age
+TID_AGE_GATE_GAMEPLAY_DESC,This will not directly affect your gameplay experience
+TID_AGE_GATE_NOTIFICATION_0,Brawl Stars is a game for all audiences. We need to ask your age to ensure you have the best experience possible.
+TID_INBOX_VIEW_AGE_GATE,VERIFY
+TID_AGE_GATE_AGE_ALREADY_SET,You have already set your age.
+TID_WEAPON_THROWER_OVERCHARGE,HYPER FIST
+TID_WEAPON_THROWER_OVERCHARGE_DESC,Sam's Knuckle Busters travel faster and will fully charge his Super if they hit an enemy Brawler during the Hypercharge.
+TID_GAME_MODE_56,TREASURE HUNT
+TID_GAME_MODE_56_DESC,Walk on top of a Treasure Plate to uncover some Treasure. Collect 10 Treasures to win!\n\nYou cannot steal Treasure that the opponent has already collected.\n\nTreasure Plates in the middle of the map provide Treasure faster!
+TID_TREASURE_HUNT_INTRO_TEXT,Collect 10 Treasures to win!
+TID_HINT_TREASURE_HUNT,Step on the Plate to get the Treasure
+TID_TREASUREHUNT_1,Hidden in Plain Sight
+TID_TREASUREHUNT_2,Middle Management
+TID_TREASUREHUNT_3,Treasure Marks the Spot
+TID_TREASUREHUNT_4,Ancient Treasure
+TID_TREASUREHUNT_5,Excellent Excavations
+TID_TREASUREHUNT_6,Can You Dig It
+TID_TREASUREHUNT_7,Brawl Starrgate
+TID_DAILY_STREAK_TITLE,DAILY STREAK
+TID_AGE_GATE_TIP_SLIDER,Use the slider to set your age.
+TID_AGE_GATE_TIP_NUM_PAD,"Invalid age entered, please try again"
+TID_INBOX_FAME_FRAMES,Donation of Fame Battle Card
+TID_INTRO_CARD_DEFAULT_FRAME,Choose a default Battle Card
+TID_INTRO_CARD_OVERRIDE_FRAME,Choose a Battle Card to display only for <BRAWLER>
+TID_BATTLE_CARD_NAME_BRONZE_2024,BRONZE 2024
+TID_BATTLE_CARD_NAME_SILVER_2024,SILVER 2024
+TID_BATTLE_CARD_NAME_GOLD_2024,GOLD 2024
+TID_BATTLE_CARD_NAME_DIAMOND_2024,DIAMOND 2024
+TID_BATTLE_CARD_NAME_MYTHIC_2024,MYTHIC 2024
+TID_BATTLE_CARD_NAME_LEGENDARY_2024,LEGENDARY 2024
+TID_BATTLE_CARD_NAME_MASTERS_2024,MASTERS 2024
+TID_BATTLE_CARD_NAME_BRONZE_2025,BRONZE 2025
+TID_BATTLE_CARD_NAME_SILVER_2025,SILVER 2025
+TID_BATTLE_CARD_NAME_GOLD_2025,GOLD 2025
+TID_BATTLE_CARD_NAME_DIAMOND_2025,DIAMOND 2025
+TID_BATTLE_CARD_NAME_MYTHIC_2025,MYTHIC 2025
+TID_BATTLE_CARD_NAME_LEGENDARY_2025,LEGENDARY 2025
+TID_BATTLE_CARD_NAME_MASTERS_2025,MASTERS 2025
+TID_BATTLE_CARD_NAME_PRO_2025,PRO 2025
+TID_BATTLE_CARD_NAME_GLOBAL_FAME,GLOBAL FAME
+TID_BATTLE_CARD_NAME_LUNAR_FAME,LUNAR FAME
+TID_BATTLE_CARD_NAME_MARTIAN_FAME,MARTIAN FAME
+TID_BATTLE_CARD_NAME_SATURNAL_FAME,SATURNAL FAME
+TID_BATTLE_CARD_NAME_SOLAR_FAME,SOLAR FAME
+TID_BATTLE_CARD_NAME_METEORIC_FAME,METEORIC FAME
+TID_BATTLE_CARD_NAME_ALIEN_FAME,ALIEN FAME
+TID_RANKED_MAX_LEVEL,MAX
+TID_INTRO_CARD_FRAMES_LOCKED,Unlock Battle Cards by playing Ranked or gaining Fame
+TID_PURCHASE_COMPETITIVE_PASS_PROGRESS_TITLE,ADVANCE TIER?
+TID_PURCHASE_COMPETITIVE_PASS_PROGRESS_INFO,Buy <NUM> Pro Pass XP and advance to the next Reward Tier?
+TID_DAILY_STREAK_BUTTON_CLAIM,CLAIM
+TID_DAILY_STREAK_BUTTON_KEEP_STREAK,KEEP STREAK
+TID_DAILY_STREAK_BUTTON_RESET_STREAK,RESET STREAK
+TID_DAILY_STREAK_LOST_TITLE,STREAK LOST
+TID_COMPETITIVE_PASS_BUY_BUTTON,GET
+TID_INBOX_CAPTION_31,DONATION: <AMOUNT> Pro Pass XP
+TID_DAILY_STREAK_FORTUNE_1,Today's Fortune
+TID_COMPETITIVEPASS_POPUP_UNLOCKED,PRO PASS UNLOCKED
+TID_COMPETITIVEPASS_INSTANT_PROGRESS,INSTANT PROGRESS
+TID_PROGRESSION_SKIN_LEVEL_1,PRO SKIN
+TID_PROGRESSION_SKIN_LEVEL_2,"PIN, SPRAY & ICON"
+TID_PROGRESSION_SKIN_LEVEL_3,ATTACK EFFECT
+TID_PROGRESSION_SKIN_LEVEL_4,SKIN UPGRADE!
+TID_PROGRESSION_SKIN_LEVEL_5,PIN SET
+TID_PROGRESSION_SKIN_LEVEL_6,TAKEDOWN EFFECT
+TID_PROGRESSION_SKIN_LEVEL_7,SPECIAL PORTRAIT
+TID_PROGRESSION_SKIN_LEVEL_8,SPAWN EFFECT
+TID_PROGRESSION_SKIN_LEVEL_9,HYPERCHARGE FORM
+TID_PROGRESSION_SKIN_LEVEL_10,CHROMA
+TID_PROGRESSION_SKIN_LEVEL_11,CHROMA
+TID_PROGRESSION_SKIN_PRO,PRO
+TID_PROGRESSION_SKIN_UPGRADED,SKIN UPGRADED!
+TID_PROGRESSION_SKIN_UPGRADE_LOCKED,Collect more Skin Upgrades
+TID_BATTLE_END_COMPETITIVE_PASS_REWARDS,Pro Pass XP REWARDS
+TID_BATTLE_END_WEEKLY_POINTS_COLLECTED,Weekly Pro Pass XP completed
+TID_BATTLE_END_COMPETITIVE_PASS_POINTS,Pro Pass XP
+TID_BATTLE_END_COMPETITIVE_PASS_DOUBLED_POINTS,Premium doubled
+TID_GATCHA_SCREEN_COMPETITIVE_PASS_POINTS_TITLE,Pro Pass XP
+TID_GATCHA_SCREEN_COMPETITIVE_PASS_POINTS_DESC,Gain Pro Pass XP to unlock Reward Tiers in Pro Pass!
+TID_SKIN_INFO_DARKSANDS,DARK SANDS
+TID_SKIN_INFO_SUPERHEROES,BRAWL UNITE
+TID_SKIN_INFO_UNO,UNO
+TID_COMPETITIVE_PASS_PURCHASE_PSI,UNIQUE COSMETICS!
+TID_COMPETITIVE_PASS_PURCHASE_DOUBLERS,DOUBLE PRO PASS XP FROM WINS
+TID_COMPETITIVE_PASS_PURCHASE_DOUBLERS_LABEL,x2
+TID_COMPETITIVE_PASS_PURCHASE_INSTANT_PROGRESS,INSTANT PROGRESS
+TID_COMPETITIVE_PASS_PURCHASE_INSTANT_PROGRESS_LABEL,+<AMOUNT>
+TID_COMPETITIVE_PASS_PURCHASE_GEM_TIERS,ALL GEM TIERS!
+TID_COMPETITIVE_PASS_PURCHASE_ALL_UPGRADE_TIERS,ALL SKIN UPGRADES!
+TID_COMPETITIVE_PASS_PURCHASE_REDEEM_ALREADY_IN_PROGRESS,Please wait. Redeeming PRO PASS from your Supercell ID now.
+TID_COMPETITIVE_PASS_PURCHASE_BUY_FROM_SUPERCELL_STORE,Your Supercell ID has no PRO PASS to redeem.
+TID_COMPETITIVE_PASS_PURCHASE_BUTTON_REDEEM,ACTIVATE
+TID_COMPETITIVE_PASS_PURCHASE_POPOVER_XP,Get <AMOUNT> Pro Pass XP to progress instantly.
+TID_COMPETITIVE_PASS_PURCHASE_POPOVER_GEMS,The paid track of the Pro Pass contains <AMOUNT> Gems!
+TID_COMPETITIVE_PASS_PURCHASE_POPOVER_PSI,Unlock unique Pro Pass cosmetics!
+TID_COMPETITIVE_PASS_PURCHASE_POPOVER_SKIN,"Unlock the final Pro Skin upgrades, including a Hypercharge Skin upgrade!"
+TID_PROGRESSION_SKIN_UPGRADE,PRO SKIN
+TID_PROGRESSION_SKIN_TIME_LEFT_TO_UNLOCK,Time left to upgrade: <TIME>
+TID_TOP_TOOL_TIP_DAILY_STREAK,Log in every day to claim your rewards and keep your Daily Streak!
+TID_SHOP_OFFER_TITLE_65,DAILY STREAK
+TID_SHOP_OFFER_INFO_65,DAILY STREAK
+TID_RANKED_MYTHIC_FORMAT_TOOLTIP,New Ranked format unlocked! Players take turns picking Brawlers and play a best of 3.
+TID_COMPETITIVE_PASS_GET_MORE_POINTS_TAIL,Get more Pro Pass XP to unlock this Reward!
+TID_RANKED_LEAGUE_TITLE_PRO,PRO
+TID_POPOVER_PRO_XP_TITLE,Pro Pass XP from Wins
+TID_POPOVER_PRO_XP_AMOUNT_INFO,Up to <AMOUNT> can be earned!
+TID_POPOVER_PRO_XP_POINTS_INFO,Each Round win gives <AMOUNT> Pro Pass XP
+TID_POPOVER_PRO_XP_TIME_INFO,Limit increase in <TIME>
+TID_POPOVER_PRO_XP_PREMIUM,x2 active!
+TID_POPOVER_NO_MORE_PRO_XP_TITLE,Pro Pass XP from Wins completed!
+TID_BRAWLER_ADDED_TO_FAVOURITES_LIST,<NAME> ADDED TO FAVORITES
+TID_BRAWLER_REMOVED_FROM_FAVOURITES_LIST,<NAME> REMOVED FROM FAVORITES
+TID_PROGRESSION_SKIN_1_NAME,ASTRAL COLT
+TID_PROGRESSION_SKIN_TYPE,Pro Skin
+TID_PROGRESSION_SKIN_COLLECT_UPGRADES,Collect more Skin Upgrades
+TID_PROGRESSION_SKIN_LEVEL_1_NUMBER,UPGRADE 1
+TID_PROGRESSION_SKIN_LEVEL_2_NUMBER,UPGRADE 2
+TID_PROGRESSION_SKIN_LEVEL_3_NUMBER,UPGRADE 3
+TID_PROGRESSION_SKIN_LEVEL_4_NUMBER,UPGRADE 4
+TID_PROGRESSION_SKIN_LEVEL_5_NUMBER,UPGRADE 5
+TID_PROGRESSION_SKIN_LEVEL_6_NUMBER,UPGRADE 6
+TID_PROGRESSION_SKIN_LEVEL_7_NUMBER,UPGRADE 7
+TID_PROGRESSION_SKIN_LEVEL_8_NUMBER,UPGRADE 8
+TID_PROGRESSION_SKIN_LEVEL_9_NUMBER,UPGRADE 9
+TID_PROGRESSION_SKIN_LEVEL_10_NUMBER,UPGRADE 10
+TID_PROGRESSION_SKIN_LEVEL_11_NUMBER,MAX UPGRADED
+TID_COLT_RANKED_PROGRESSION_SKIN_1,ASTRAL COLT I
+TID_COLT_RANKED_PROGRESSION_SKIN_2,ASTRAL COLT II
+TID_COLT_RANKED_PROGRESSION_SKIN_3,ASTRAL COLT III
+TID_COLT_RANKED_PROGRESSION_SKIN_4,ASTRAL COLT IV
+TID_COLT_RANKED_PROGRESSION_SKIN_5,ASTRAL COLT V
+TID_COLT_RANKED_PROGRESSION_SKIN_6,ASTRAL COLT VI
+TID_COLT_RANKED_PROGRESSION_SKIN_7,ASTRAL COLT VII
+TID_COLT_RANKED_PROGRESSION_SKIN_8,ASTRAL COLT VIII
+TID_COLT_RANKED_PROGRESSION_SKIN_9,ULTRA ASTRAL COLT
+TID_COLT_RANKED_PROGRESSION_SKIN_10,GUARDIAN COLT
+TID_COLT_RANKED_PROGRESSION_SKIN_11,HYPERION COLT
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_1,ASTRAL COLT I
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_2,ASTRAL COLT II
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_3,ASTRAL COLT III
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_4,ASTRAL COLT IV
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_5,ASTRAL COLT V
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_6,ASTRAL COLT VI
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_7,ASTRAL COLT VII
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_8,ASTRAL COLT VIII
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_9,ULTRA ASTRAL COLT
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_10,GUARDIAN COLT
+TID_COLT_SHOP_RANKED_PROGRESSION_SKIN_11,HYPERION COLT
+TID_COMPETITIVE_PASS_PRO_PASS_XP,PRO PASS XP
+TID_UNO_ACTION_DRAW_TWO,Draw Two
+TID_UNO_ACTION_REVERSE,Reverse
+TID_UNO_ACTION_SKIP,Skip
+TID_UNO_ONE_LEFT,UNO!
+TID_COMPETITIVE_PASS_PURCHASE_POPUP_DURATION,PRO PASS SEASON! (<TIME> left)
+TID_COMPETITIVE_PASS_PURCHASE_POPUP_DURATION_OFFER,ONLY <AMOUNT> PER MONTH!
+TID_COMPETITIVE_PASS_PURCHASE_PANEL_SHOP_RANKED,BOOST YOUR RANKED REWARDS!
+TID_PROGRESSION_SKIN_HYPERCHARGE_REQUIRED,Power 11 + Hypercharge required
+TID_PROGRESSION_SKIN_ALREADY_FULLY_MAXED_ERROR,Pro Skin already fully upgraded
+TID_COMPETITIVE_SEASON_EVENT_GAME_MODE,FEATURED GAME MODE!
+TID_COMPETITIVE_SEASON_EVENT_MAXED_BRAWLERS,MAXED BRAWLERS!
+TID_COMPETITIVE_PASS_TIME_LEFT,<TIME>
+TID_COMPETITIVE_PASS_TITLE_SEASON_1,BRAWL CUP
+TID_LOGIN_CALENDAR_REWARD_GEMS,GEMS
+TID_DAILY_STREAK_BUTTON_DAILY_REWARD_ALREADY_CLAIMED,Daily Streak reward already claimed!
+TID_PROGRESSION_SKIN_INFO_TITLE,PRO SKIN
+TID_PROGRESSION_SKIN_INFO_TEXT_1,Progress the Pro Pass to collect Skin Upgrades
+TID_PROGRESSION_SKIN_INFO_TEXT_2,10 Upgrades to MAX the skin!
+TID_ESPORTS_BUTTON_TOOLTIP_PREDICT,PREDICT
+TID_ESPORTS_BUTTON_TOOLTIP_LIVE,LIVE
+TID_ESPORTS_BUTTON_TOOLTIP_LIVE_IN,LIVE IN
+TID_ESPORTS_BUTTON_TOOLTIP_COUNTDOWN,<TIME>
+TID_ACCESSORY_COOLDOWN,Cooldown: <c00cc00><NUM></c> seconds.
+TID_CP_INFO_POPUP_HEADER1,PRO PASS SEASONS
+TID_CP_INFO_POPUP_INFO1,4 months long and themed around major Brawl Stars Esports events!
+TID_CP_INFO_POPUP_HEADER2,PRO PASS XP TRACK
+TID_CP_INFO_POPUP_INFO2,"Win Ranked matches, Rank up, or watch our Esports events online."
+TID_CP_INFO_POPUP_HEADER3,ACTIVATE AND GO PRO!
+TID_CP_INFO_POPUP_INFO3,"Unlock ALL the Reward Tiers, upgrades for your Pro Skin and other perks!"
+TID_RANKED_INFO_POPUP_HEADER1,FEATURED GAME MODE
+TID_RANKED_INFO_POPUP_INFO1,Play on different maps and modes every month.
+TID_RANKED_INFO_POPUP_HEADER2,MAXED BRAWLERS!
+TID_RANKED_INFO_POPUP_INFO2,"Each month, 3 Brawlers are maxed out temporarily in Ranked for everyone to try!"
+TID_RANKED_INFO_POPUP_HEADER3,PRO PASS REWARDS
+TID_RANKED_INFO_POPUP_INFO3,Climb the Ranks to collect permanent Battle Card frames and get rewards on the Pro Pass!
+TID_RANKED_TRACK_MONTH_TITLE,Month <MONTH>
+TID_RANKED_TRACK_MONTH_ENDS,Ends in <TIME>
+TID_RANKED_TRACK_PASS_ENDS,Pro Pass <TIME>
+TID_LOGIN_CALENDAR_TEXT_NOTIFICATION_STREAK_LOST,Daily streak lost!
+TID_QUALIFIED_INFO_FALLBACK_PARAM_64,"Congrats, you won the <CHALLENGE>! Your challenge victory reward is: <REWARD>\nThis replaces the original reward that you can't receive."
+TID_CHALLENGE_WIN_FALLBACK_REWARD_POPUP_TEXT_64,Your reward for win #<WIN> in <CHALLENGE>: <REWARD>\nThis replaces the original reward that you can't receive.
+TID_QUEST_FALLBACK_REWARD_PRO_PASS_XP_DESC,"Since you can't receive the Quest reward, you get <REWARD>!"
+TID_FIRST_GADGET_TUTORIAL_3_DESC_COOLDOWN,Use your Gadget whenever it's ready in battle
+TID_COMPETITIVE_QUARTER_START_NEW_MODE,FEATURED MODE
+TID_COMPETITIVE_QUARTER_START_MAX_BRAWLERS,THIS MONTH'S MAX BRAWLERS
+TID_NEXT_BUTTON,NEXT
+TID_COMPETITIVE_PASS_TAIL_INFO_NEW,Earn bonus rewards for every 6500 Pro Pass XP gained!
+TID_DEATHMATCH_701,Big Battle Basin
+TID_DEATHMATCH_703,Unhappy Arena
+TID_BRAWLBALL_5V5_701,Polar Park
+TID_BRAWLBALL_5V5_702,Stockpile Stadium
+TID_UNO_1,Wild Greens
+TID_UNO_2,Reverse Crossing
+TID_UNO_3,Skipyard
+TID_DAILY_STREAK_LOADING,"Loading Daily Streak, please wait!"
+TID_DAILY_STREAK_BUTTON_OK,OK
+TID_BUTTON_NEXT,NEXT
+TID_MYSTIC_MEEPLE_SKIN,MYSTIC MEEPLE
+TID_MYSTIC_MEEPLE_SKIN_SHOP,MYSTIC\nMEEPLE
+TID_ANUBIS_RUFFS_SKIN,RUFFESSES II
+TID_ANUBIS_RUFFS_SKIN_SHOP,RUFFESSES II
+TID_CLEOPATRA_VOODOO_SKIN,QUEEN JUJU
+TID_CLEOPATRA_VOODOO_SKIN_SHOP,QUEEN\nJUJU
+TID_MUMMY_FRANK_SKIN,MUMMIFIED FRANK
+TID_MUMMY_FRANK_SKIN_SHOP,MUMMIFIED\nFRANK
+TID_DARK_MUMMY_FRANK_SKIN,CHARCOAL FRANK
+TID_DARK_MUMMY_FRANK_SKIN_SHOP,CHARCOAL\nFRANK
+TID_LIGHT_MUMMY_FRANK_SKIN,PAPYRUS FRANK
+TID_LIGHT_MUMMY_FRANK_SKIN_SHOP,PAPYRUS\nFRANK
+TID_PHARA_OLLIE_SKIN,PHARAOLLIE
+TID_PHARA_OLLIE_SKIN_SHOP,PHARAOLLIE
+TID_SCARAB_SQUEAK_SKIN,SCARAB SQUEAK
+TID_SCARAB_SQUEAK_SKIN_SHOP,SCARAB\nSQUEAK
+TID_EGG_PAM_SKIN,EGG PAM
+TID_EGG_PAM_SKIN_SHOP,EGG PAM
+TID_TRICKSHOT_EGG_SKIN,EGG RICO
+TID_TRICKSHOT_EGG_SKIN_SHOP,EGG RICO
+TID_CARNIVAL_MANDY_SKIN,CARNAVAL MANDY
+TID_CARNIVAL_MANDY_SKIN_SHOP,CARNAVAL\nMANDY
+TID_UNO_CHESTER_SKIN,UNO CHESTER
+TID_UNO_CHESTER_SKIN_SHOP,UNO\nCHESTER
+TID_PEKKA_ASH_SKIN,P.E.K.K.A.S.H
+TID_PEKKA_ASH_SKIN_SHOP,P.E.K.K.A.S.H
+TID_DAILY_STREAK_VALUE,<VALUE>
+TID_AGE_GATE_NUM_PAD_INFO,Brawl Stars is a game for all audiences. We need to ask your age to ensure you have the best experience possible.
+TID_TILE_BATTLEPASSPLUS_SEASON36,Mummified
+TID_TILE_BATTLEPASSPLUS_SEASON37,Superhero
+TID_BRAWL_PASS_SEASON_35,DARK SANDS
+TID_BRAWL_PASS_SEASON_36,SUPER BRAWL
+TID_COMPETITIVE_QUARTER_START_BATTLE_CARDS,+ BATTLE CARDS UPGRADED (UP TO THIS RANK)
+TID_COMPETITIVE_PASS_POINTS_ESPORTS_TOOLTIP,Pro Pass XP from Esports\n\nEarn Pro Pass XP by predicting winners and watching Brawl Stars Pro Events!
+TID_COMPETITIVE_PASS_POINTS_RANK_UP_TOOLTIP,<AMOUNT> Pro Pass XP\n\nRank up to collect!
+TID_COMPETITIVE_PASS_PURCHASE_POPOVER_XP_DOUBLER,Double all progress from past and future wins!
+TID_CP_ALL_SKIN_UPGRADES,x5 PRO SKIN UPGRADES
+TID_CP_REWARDS,PREMIUM TRACK
+TID_CP_CONTENT_SUMMARY_TITLE,PRO PASS REWARDS
+TID_COMPETITIVE_PASS_PURCHASE_POPOVER_XP_DETAIL,Get <AMOUNT> Pro Pass XP and progress instantly! Includes <WINNINGS> Pro Pass XP from doubling of your past wins.
+TID_HOTZONE_601,Bejeweled
+TID_HOTZONE_602,Fishing Bed
+TID_BALL_601,Priceless Cactus
+TID_BALL_602,Rooftop Runners
+TID_KNOCKOUT_601,Mossy Crossing
+TID_GEMGRAB_601,Lilygear Lake
+TID_GEMGRAB_602,Local Restaurants
+TID_BANKHEIST_601,Plain Text
+TID_TAGTEAM_601,Hurricane
+TID_WANTED_601,Brace for Impact
+TID_DEATHMATCH_601,Covered Garden
+TID_COMPETITIVE_QUARTER_START_RANK_SKIP,RANK SKIP!
+TID_COMPETITIVE_QUARTER_START_MONTH_1,MONTH 1
+TID_COMPETITIVE_QUARTER_START_MONTH_2,MONTH 2
+TID_COMPETITIVE_QUARTER_START_MONTH_3,MONTH 3
+TID_COMPETITIVE_QUARTER_START_MONTH_4,MONTH 4
+TID_COMPETITIVE_QUARTER_START_SEASON,SEASON
+TID_SHOP_OFFER_TITLE_34,UPGRADE BRAWLER
+TID_DAILY_STREAK_TODAYS_REWARD,Today's Reward
+TID_TRIO,TRIO
+TID_COMPETITIVE_NEW_RANKED_MONTH,NEW RANKED MONTH!
+TID_BRAWLBALL_5V5_703,Siberian Stand Off
+TID_DEATHMATCH_704,Survival of the Meanest
+TID_DEATHMATCH_705,Mirages of Madness
+TID_DEATHMATCH_706,Courtyard Clashers
+TID_GEMGRAB_5V5_701,Shimmering Forest
+TID_GEMGRAB_5V5_702,Arctic Ambush
+TID_GEMGRAB_5V5_703,Treasure Island
+TID_COMPETITIVE_PASS_TIER_TOOLTIP,"Earn Pro Pass XP to unlock this Reward Tier. You can get Pro Pass XP from Ranked wins, Rank ups, and watching Esports broadcasts."
+TID_COMPETITIVE_MONTH_START_TEMPORARY,Temporary in Ranked this month
+TID_SKIN_INFO_PRO_PASS,PRO PASS SKIN
+TID_PASS_RANDOM_HC,RANDOM HYPERCHARGE
+TID_HERO_INFO_PROJECTILE_DAMAGE_SELF,Projectile Damage (Self)
+TID_HERO_INFO_PROJECTILE_SPEED_ALLIES,Projectile Speed (Teammates)
+TID_HERO_INFO_PROJECTILE_SPEED_ENEMIES,Projectile Speed (Enemies)
+TID_COMPETITIVE_PASS_AUTOCOLLECT_TITLE,<NAME> Pro Pass rewards
+TID_COMPETITIVE_PASS_AUTOCOLLECT,Your <NAME> Pro Pass rewards were automatically collected.
+TID_SKIN_INFO_PROPASS,PRO PASS
+TID_RANKED_DROP_NAME,RANKED DROP
+TID_SHOWDOWN_613,Mystical Thirty Three
+TID_SHOWDOWN_601,Waveform
+TID_SHOWDOWN_602,Core of Orbit
+TID_SHOWDOWN_603,Lilypond Grove
+TID_BATTLE_CARD_UNLOCKED,Battle Card unlocked!
+TID_RANKED_MASTERS_I,MASTERS I
+TID_RANKED_MASTERS_II,MASTERS II
+TID_RANKED_MASTERS_III,MASTERS III
+TID_RANKED_PRO,PRO
+TID_MSG_RANKED_ABANDON_MATCH_ELO_PENALTY,Your Rank Score has decreased for leaving a match.\n\nRepeated offenses will result in suspension from Ranked matches and losing more Rank Score.
+TID_PROGRESSION_SKIN_UNLOCKED,SKIN UNLOCKED
+TID_COMPETITIVE_TRACK_CARD_TOOLTIP,UNLOCK <RANK> 2025 BATTLE CARD!
+TID_SKIN_UPGRADE_CARD_TRACK_ANIM_TEXT,SKIN UPGRADE!
+TID_VILLAN_BIBI_SKIN,JUSTICE SMASHER BIBI
+TID_VILLAN_BIBI_SKIN_SHOP,JUSTICE SMASHER\nBIBI
+TID_VILLAN_PINK_BIBI_SKIN,INJUSTICE SMASHER BIBI
+TID_VILLAN_PINK_BIBI_SKIN_SHOP,INJUSTICE SMASHER\nBIBI
+TID_VILLAN_BLUE_BIBI_SKIN,VIRTUE SMASHER BIBI
+TID_VILLAN_BLUE_BIBI_SKIN_SHOP,VIRTUE SMASHER\nBIBI
+TID_CARL_STAG_SKIN,INSECTOR CARL
+TID_CARL_STAG_SKIN_SHOP,INSECTOR\nCARL
+TID_MISTICO_SAM_SKIN,SPECTACULOR SAM
+TID_MISTICO_SAM_SKIN_SHOP,SPECTACULOR\nSAM
+TID_PHOENIX_JANET_SKIN,FIREWING JANET
+TID_PHOENIX_JANET_SKIN_SHOP,FIREWING\nJANET
+TID_LORD_OF_GOD_GROM_SKIN,PROTECTOR GROM
+TID_LORD_OF_GOD_GROM_SKIN_SHOP,PROTECTOR\nGROM
+TID_CHUCK_ELECTRO_SKIN,ELECTROID CHUCK
+TID_CHUCK_ELECTRO_SKIN_SHOP,ELECTROID CHUCK
+TID_TIME_PROTECTOR_BUSTER_SKIN,EQUILIBRIUM BUSTER
+TID_TIME_PROTECTOR_BUSTER_SKIN_SHOP,EQUILIBRIUM\nBUSTER
+TID_DARK_KNIGHT_LUMI_SKIN,DARK KNIGHT LUMI
+TID_DARK_KNIGHT_LUMI_SKIN_SHOP,DARK KNIGHT\nLUMI
+TID_JURASSIC_FINX_SKIN,JURASSIC FINX
+TID_JURASSIC_FINX_SKIN_SHOP,JURASSIC FINX
+TID_FIENDISH_AMBER_SKIN,FIENDISH AMBER
+TID_FIENDISH_AMBER_SKIN_SHOP,FIENDISH AMBER
+TID_BEACH_BELLE_SKIN,BEACH BELLE
+TID_BEACH_BELLE_SKIN_SHOP,BEACH BELLE
+TID_FIRST_MATE_FANG_SKIN,FIRST MATE FANG
+TID_FIRST_MATE_FANG_SKIN_SHOP,FIRST MATE\nFANG
+TID_CORED_EVE_SKIN,CORED EVE
+TID_CORED_EVE_SKIN_SHOP,CORED\nEVE
+TID_TRUE_GOLD_JUJU_SKIN,TRUE GOLD JUJU
+TID_TRUE_GOLD_JUJU_SKIN_SHOP,TRUE GOLD\nJUJU
+TID_TRUE_SILVER_JUJU_SKIN,TRUE SILVER JUJU
+TID_TRUE_SILVER_JUJU_SKIN_SHOP,TRUE SILVER\nJUJU
+TID_TRUE_GOLD_MEEPLE_SKIN,TRUE GOLD MEEPLE
+TID_TRUE_GOLD_MEEPLE_SKIN_SHOP,TRUE GOLD\nMEEPLE
+TID_TRUE_SILVER_MEEPLE_SKIN,TRUE SILVER MEEPLE
+TID_TRUE_SILVER_MEEPLE_SKIN_SHOP,TRUE SILVER\nMEEPLE
+TID_TRUE_GOLD_OLLIE_SKIN,TRUE GOLD OLLIE
+TID_TRUE_GOLD_OLLIE_SKIN_SHOP,TRUE GOLD\nOLLIE
+TID_TRUE_SILVER_OLLIE_SKIN,TRUE SILVER OLLIE
+TID_TRUE_SILVER_OLLIE_SKIN_SHOP,TRUE SILVER\nOLLIE
+TID_TRUE_GOLD_SHADE_SKIN,TRUE GOLD SHADE
+TID_TRUE_GOLD_SHADE_SKIN_SHOP,TRUE GOLD\nSHADE
+TID_TRUE_SILVER_SHADE_SKIN,TRUE SILVER SHADE
+TID_TRUE_SILVER_SHADE_SKIN_SHOP,TRUE SILVER\nSHADE
+TID_INBOX_COMPETITIVE_POINTS_UNCLAIMABLE,Unlock Ranked at 1000 Trophies
+TID_COMPETITIVE_PASS_UNLOCK_PASS,Activate PRO PASS to unlock premium rewards!
+TID_COMPETITIVE_PASS_GET_MORE_POINTS,Get more Pro Pass XP to unlock this Reward!
+TID_INBOX_MSG_RANKED_ELO_RESTORED,<ELO> Points manually restored to your Rank Score.
+TID_DAILY_STREAK_RESET_IN,<TIME>
+"TID_K2_BRAWL_POWER_HERO_TITLE","同步芯片"
+"TID_K2_BRAWL_POWER_HERO_BP_TIPS","本主题季期间，开启乱斗金券获得额外槽位"
+"TID_K2_BRAWL_POWER_HERO_REMOVE_CONFIRM_TITLE","提示"
+"TID_K2_BRAWL_POWER_HERO_COOLDOWN_TIPS","同步芯片冷却中,还有<TIME>可更换英雄"
+"TID_K2_BRAWL_POWER_HERO_REMOVE_CONFIRM_COOLDOWN_DESC","距离下次同步芯片冷却时长还有<TIME>，是否取消同步芯片加强？"
+"TID_K2_BRAWL_POWER_HERO_ADD_CONFIRM_TITLE","提示"
+"TID_K2_BRAWL_POWER_HERO_ADD_CONFIRM_DESC","确定用同步芯片加强该英雄吗？"
+"TID_K2_BRAWL_POWER_HERO_ADD_CONFIRM_MAX_LEVEL","当前英雄已达到11级，仍然确认用同步芯片加强吗？"
+"TID_K2_BRAWL_POWER_HERO_LIST_TITLE","请选择同步的英雄"
+"TID_K2_BRAWL_POWER_HERO_LIST_SELECTED_STATE","同步中"
+"TID_K2_BRAWL_POWER_HERO_LIST_SELECTED_TIPS","该英雄已启用同步芯片加强"
+"TID_K2_BRAWL_POWER_HERO_WHAT_IS_THIS","Synced chip upgrade!"
+"TID_K2_BRAWL_POWER_HERO_INTRO_TITLE_1","Chip upgrade!"
+"TID_K2_BRAWL_POWER_HERO_INTRO_CONTENT_1","Direct level 11, unlocking all Star powers,  gadgets and Hyper Charge!"
+"TID_K2_BRAWL_POWER_HERO_INTRO_TITLE_2","更换需谨慎！"
+"TID_K2_BRAWL_POWER_HERO_INTRO_CONTENT_2","首次更换英雄无需冷却，但再换冷却时长会增加！"
+"TID_K2_BRAWL_POWER_HERO_INTRO_TITLE_3","栏位+1？"
+"TID_K2_BRAWL_POWER_HERO_INTRO_CONTENT_3","购买当季BP，即可获得当季额外栏位！"
+"TID_K2_BRAWL_POWER_HERO",同步芯片强化英雄
+"TID_K2_BRAWL_POWER_HERO_UPGRADE","同步芯片强化英雄不可升级"
+TID_CN_WIDGET_WING_LIGHT_A,转灯·宫
+TID_CN_WIDGET_WING_LIGHT_B,转灯·商
+TID_CN_WIDGET_WING_LIGHT_C,转灯·角
+TID_CN_WIDGET_WING_LIGHT_D,转灯·徵
+TID_CN_WIDGET_WING_LIGHT_E,转灯·羽
+TID_SPEEDYPILOT_SKIN,王牌机师麦克斯
+TID_SPEEDYPILOT_SKIN_SHOP,王牌机师麦克斯
+TID_JETPACKGIRLAIRCRAFT_SKIN,6号战机珍妮特
+TID_JETPACKGIRLAIRCRAFT_SKIN_SHOP,6号战机珍妮特
+TID_K2_HERO_SKIN_NAME_TITLE,角色上方名称显示
+TID_K2_HERO_SKIN_NAME_SKIN,皮肤名称
+TID_K2_HERO_SKIN_NAME_HERO,玩家昵称
+TID_K2_HERO_SKIN_NAME_HELP,点击选择后，玩家所选择的名称将在对局、乱斗街区等生效。\n玩家的选择将仅对己方视角显示生效。
+"TID_EVENT_SLOT_NAME_100000","星妙派对3"
+"TID_K2_P3_PROJECTILE_SPEED_1","吹风机"
+"TID_K2_P3_PROJECTILE_SPEED_1_DESC","+<c00cc00><NUM1></c>%弹道飞行速率"
+"TID_K2_P3_PROJECTILE_SPEED_2","无刷电机吹风机"
+"TID_K2_P3_PROJECTILE_SPEED_2_DESC","+<c00cc00><NUM1></c>%弹道飞行速率"
+"TID_K2_P3_PROJECTILE_SPEED_3","DS吹风机"
+"TID_K2_P3_PROJECTILE_SPEED_3_DESC","+<c00cc00><NUM1></c>%弹道飞行速率"
+"TID_K2_P3_PROJECTILE_SPEED_5","涡轮吹风机"
+"TID_K2_P3_PROJECTILE_SPEED_5_DESC","+<c00cc00><NUM1></c>%弹道飞行速率"
+"TID_K2_P3_HP_1","I-FIELD力场"
+"TID_K2_P3_HP_1_DESC","+<c00cc00><NUM1></c>生命上限"
+"TID_K2_P3_HP_2","I-FIELD力场Plus"
+"TID_K2_P3_HP_2_DESC","+<c00cc00><NUM1></c>生命上限"
+"TID_K2_P3_HP_3","I-FIELD力场Pro"
+"TID_K2_P3_HP_3_DESC","+<c00cc00><NUM1></c>生命上限"
+"TID_K2_P3_HP_5","I-FIELD力场Ultra"
+"TID_K2_P3_HP_5_DESC","+<c00cc00><NUM1></c>生命上限"
+"TID_K2_P3_ATTACK_1","多巴胺粉剂"
+"TID_K2_P3_ATTACK_1_DESC","+<c00cc00><NUM1></c>武器攻击力"
+"TID_K2_P3_ATTACK_2","多巴胺试剂"
+"TID_K2_P3_ATTACK_2_DESC","+<c00cc00><NUM1></c>武器攻击力"
+"TID_K2_P3_ATTACK_3","浓缩多巴胺"
+"TID_K2_P3_ATTACK_3_DESC","+<c00cc00><NUM1></c>武器攻击力"
+"TID_K2_P3_ATTACK_5","超纯多巴胺"
+"TID_K2_P3_ATTACK_5_DESC","+<c00cc00><NUM1></c>武器攻击力"
+"TID_K2_P3_MOVE_SPEED_1","帆布鞋"
+"TID_K2_P3_MOVE_SPEED_1_DESC","+<c00cc00><NUM1></c>基础移动速度"
+"TID_K2_P3_MOVE_SPEED_2","爆米花跑鞋"
+"TID_K2_P3_MOVE_SPEED_2_DESC","+<c00cc00><NUM1></c>基础移动速度"
+"TID_K2_P3_MOVE_SPEED_3","飞马跑鞋"
+"TID_K2_P3_MOVE_SPEED_3_DESC","+<c00cc00><NUM1></c>基础移动速度"
+"TID_K2_P3_MOVE_SPEED_5","阿尔法跑鞋"
+"TID_K2_P3_MOVE_SPEED_5_DESC","+<c00cc00><NUM1></c>基础移动速度"
+"TID_K2_P3_PROJECTILE_CLIP_1","干电池"
+"TID_K2_P3_PROJECTILE_CLIP_1_DESC","+<c00cc00><NUM1></c>武器弹夹(初始弹夹数为1的角色无效)"
+"TID_K2_P3_RECHARGE_1","5V2A充电器"
+"TID_K2_P3_RECHARGE_1_DESC","+<c00cc00><NUM1></c>%武器装弹速率"
+"TID_K2_P3_RECHARGE_2","PD快充"
+"TID_K2_P3_RECHARGE_2_DESC","+<c00cc00><NUM1></c>%武器装弹速率"
+"TID_K2_P3_RECHARGE_3","GaN快充"
+"TID_K2_P3_RECHARGE_3_DESC","+<c00cc00><NUM1></c>%武器装弹速率"
+"TID_K2_P3_RECHARGE_5","800V超充"
+"TID_K2_P3_RECHARGE_5_DESC","+<c00cc00><NUM1></c>%武器装弹速率"
+"TID_K2_P3_ATTACK_RANGE_2","眼镜"
+"TID_K2_P3_ATTACK_RANGE_2_DESC","+<c00cc00><NUM1></c>远程英雄攻击范围(近身无效)"
+"TID_K2_P3_ATTACK_RANGE_3","瞄准镜"
+"TID_K2_P3_ATTACK_RANGE_3_DESC","+<c00cc00><NUM1></c>远程英雄攻击范围,+<c00cc00><NUM2></c>近身英雄攻击范围"
+"TID_K2_P3_ATTACK_RANGE_5","红外瞄准镜"
+"TID_K2_P3_ATTACK_RANGE_5_DESC","+<c00cc00><NUM1></c>远程英雄攻击范围,+<c00cc00><NUM2></c>近身英雄攻击范围"
+"TID_K2_P3_OVERCHARGE_CHARGE_1","大白兔软糖"
+"TID_K2_P3_OVERCHARGE_CHARGE_1_DESC","+<c00cc00><NUM1></c>%极限充能效率"
+"TID_K2_P3_OVERCHARGE_CHARGE_2","巧克力"
+"TID_K2_P3_OVERCHARGE_CHARGE_2_DESC","+<c00cc00><NUM1></c>%极限充能效率"
+"TID_K2_P3_OVERCHARGE_CHARGE_3","黑咖啡"
+"TID_K2_P3_OVERCHARGE_CHARGE_3_DESC","+<c00cc00><NUM1></c>%极限充能效率"
+"TID_K2_P3_OVERCHARGE_CHARGE_5","蓝色药片"
+"TID_K2_P3_OVERCHARGE_CHARGE_5_DESC","+<c00cc00><NUM1></c>%极限充能效率"
+"TID_K2_P3_GADGET_CHARGE_3","七巧板"
+"TID_K2_P3_GADGET_CHARGE_3_DESC","+<c00cc00><NUM1></c>妙具使用次数"
+"TID_K2_P3_GADGET_CHARGE_5","百宝箱"
+"TID_K2_P3_GADGET_CHARGE_5_DESC","+<c00cc00><NUM1></c>妙具使用次数"
+"TID_K2_P3_CURED_SCALE_1","板蓝根"
+"TID_K2_P3_CURED_SCALE_1_DESC","受到治疗时,+<c00cc00><NUM1></c>%回复量(不含自回血)"
+"TID_K2_P3_CURED_SCALE_2","感冒灵"
+"TID_K2_P3_CURED_SCALE_2_DESC","受到治疗时,+<c00cc00><NUM1></c>%回复量(不含自回血)"
+"TID_K2_P3_CURED_SCALE_3","布洛芬"
+"TID_K2_P3_CURED_SCALE_3_DESC","受到治疗时,+<c00cc00><NUM1></c>%回复量(不含自回血)"
+"TID_K2_P3_CURED_SCALE_5","抗生素"
+"TID_K2_P3_CURED_SCALE_5_DESC","受到治疗时,+<c00cc00><NUM1></c>%回复量(不含自回血)"
+"TID_K2_P3_CONSUMABLE_SHIELD_1","安全帽"
+"TID_K2_P3_CONSUMABLE_SHIELD_1_DESC","开局时获得一个可承受<c00cc00><NUM1></c>伤害的一次性护盾，持续<c00cc00><NUM2></c>秒"
+"TID_K2_P3_CONSUMABLE_SHIELD_2","骑行头盔"
+"TID_K2_P3_CONSUMABLE_SHIELD_2_DESC","开局时获得一个可承受<c00cc00><NUM1></c>伤害的一次性护盾，持续<c00cc00><NUM2></c>秒"
+"TID_K2_P3_CONSUMABLE_SHIELD_3","碳素头盔"
+"TID_K2_P3_CONSUMABLE_SHIELD_3_DESC","开局时获得一个可承受<c00cc00><NUM1></c>伤害的一次性护盾，持续<c00cc00><NUM2></c>秒"
+"TID_K2_P3_CONSUMABLE_SHIELD_5","防暴头盔"
+"TID_K2_P3_CONSUMABLE_SHIELD_5_DESC","开局时获得一个可承受<c00cc00><NUM1></c>伤害的一次性护盾，持续<c00cc00><NUM2></c>秒"
+"TID_K2_P3_ATTACK_SPEEED_1","鸽子羽毛"
+"TID_K2_P3_ATTACK_SPEEED_1_DESC","+<c00cc00><NUM1></c>%攻速"
+"TID_K2_P3_ATTACK_SPEEED_2","金雕之羽"
+"TID_K2_P3_ATTACK_SPEEED_2_DESC","+<c00cc00><NUM1></c>%攻速"
+"TID_K2_P3_ATTACK_SPEEED_3","游隼之羽"
+"TID_K2_P3_ATTACK_SPEEED_3_DESC","+<c00cc00><NUM1></c>%攻速"
+"TID_K2_P3_ATTACK_SPEEED_5","风灵之羽"
+"TID_K2_P3_ATTACK_SPEEED_5_DESC","+<c00cc00><NUM1></c>%攻速"
+"TID_K2_P3_COIN_ON_KILL_1","赏金通告"
+"TID_K2_P3_COIN_ON_KILL_1_DESC","+<c00cc00><NUM1></c>每次击杀获得赏金"
+"TID_K2_P3_COIN_ON_KILL_2","A级赏金通告"
+"TID_K2_P3_COIN_ON_KILL_2_DESC","+<c00cc00><NUM1></c>每次击杀获得赏金"
+"TID_K2_P3_COIN_ON_KILL_3","超A赏金通告"
+"TID_K2_P3_COIN_ON_KILL_3_DESC","+<c00cc00><NUM1></c>每次击杀获得赏金"
+"TID_K2_P3_COIN_ON_KILL_5","S级赏金通告"
+"TID_K2_P3_COIN_ON_KILL_5_DESC","+<c00cc00><NUM1></c>每次击杀获得赏金"
+"TID_K2_P3_COIN_NOT_ENOUGH","金币不足"
+"TID_K2_P3_BUY_CARD_CONFIRM_TITLE","购买确认"
+"TID_K2_P3_BUY_CARD_CONDIEM_CONTENT","请确认要购买<CARD_NAME>，将花费<COST>金币，您当前拥有<CURRENT>金币"
+"TID_K2_PARTY_3_EVENT_TITLE","星妙派对3"
+"TID_K2_PARTY_3_EVENT_DESC","星妙派对desc"
+"TID_K2_P3_REFRESH_CARDS","换一批"
+"TID_K2_P3_FREE_REFRESH","免费"
+"TID_K2_P3_REMAIN_SHOP_TIME","选择剩余时间: <SECONDS_TIME>秒"
+"TID_K2_P3_ROUND_INFO","赢得最后一场比赛的队伍将获得最终的胜利"
+"TID_K2_P3_UNFOLD_CARD_BUTTON_NAME","强化"
+"TID_K2_P3_HIDE_CARD_BUTTON_NAME","隐藏"
+"TID_K2_P3_SHOP_REFRESH_TIME","<c0330000><SECONDS></c>秒后自动刷新"
+"TID_K2_P3_INTRO_TITLE_1","随机模式"
+"TID_K2_P3_INTRO_CONTENT_1","随机确定连续三局的对战模式"
+"TID_K2_P3_INTRO_TITLE_2","局内成长累积"
+"TID_K2_P3_INTRO_CONTENT_2","局内可选择随机道具增强自身能力，并可累积"
+"TID_K2_P3_INTRO_TITLE_3","决胜局判胜负"
+"TID_K2_P3_INTRO_CONTENT_3","最后以决胜局的结果判定胜负"
+"TID_K2_P2_ROUND_TITLE_1","第一局"
+"TID_K2_P2_ROUND_TITLE_2","第二局"
+"TID_K2_P2_ROUND_TITLE_3","决胜局"
+"TID_K2_BRAWLER_TRIAL_REVOKED","英雄体验券功能暂时离开了，这是您获得的补偿奖励!"
+TID_MEGAPANDA_TASK_RESIGN_MISSING_TICKETS1,还需要<MISSINGGEMS>点券
+TID_MEGAPANDA_TASK_RESIGN_MISSING_TICKETS2,再获取<MISSINGGEMS>点券以补签该任务
+TID_COLLAB_10001,电玩竞赛
+TID_BATTLE_DISABLE_COMMONWIDGET,该功能不适用于此模式
+TID_SHELLY_LABEL_K2,荒野警员
+TID_COLT_LABEL_K2,荒野左轮
+TID_BULL_LABEL_K2,野蛮冲撞
+TID_BROCK_LABEL_K2,火箭筒
+TID_RICOCHET_LABEL_K2,彩虹弹珠
+TID_SPIKE_LABEL_K2,荒野尖刺
+TID_BARLEY_LABEL_K2,灼热原浆
+TID_JESSIE_LABEL_K2,发明家
+TID_NITA_LABEL_K2,熊孩子
+TID_DYNAMIKE_LABEL_K2,双发雷管
+TID_ELPRIMO_LABEL_K2,摔角手
+TID_MORTIS_LABEL_K2,铁铲蝠王
+TID_CROW_LABEL_K2,淬毒飞刃
+TID_POCO_LABEL_K2,治愈吉他
+TID_BO_LABEL_K2,丛林弓手
+TID_PIPER_LABEL_K2,王牌特工
+TID_PAM_LABEL_K2,爱的扫射
+TID_TARA_LABEL_K2,塔罗大师
+TID_DARRYL_LABEL_K2,滚桶船长
+TID_PENNY_LABEL_K2,寻宝火铳
+TID_FRANK_LABEL_K2,重锤出击
+TID_GENE_LABEL_K2,炽热魔手
+TID_TICK_LABEL_K2,三颗地雷
+TID_LEON_LABEL_K2,疾风步
+TID_ROSA_LABEL_K2,藤蔓重拳
+TID_CARL_LABEL_K2,十字镐
+TID_BIBI_LABEL_K2,全垒打
+TID_8BIT_LABEL_K2,愤怒街机
+TID_SANDY_LABEL_K2,沙之美梦
+TID_BEA_LABEL_K2,大黄蜂
+TID_EMZ_LABEL_K2,腐蚀发胶
+TID_MR.P_LABEL_K2,叨叨企鹅
+TID_MAX_LABEL_K2,极速闪电
+TID_JACKY_LABEL_K2,裂地凿击
+TID_GALE_LABEL_K2,烈风吹雪
+TID_NANI_LABEL_K2,遥控视界
+TID_SPROUT_LABEL_K2,智能园丁
+TID_SURGE_LABEL_K2,多重爆汽
+TID_COLETTE_LABEL_K2,收藏家
+TID_AMBER_LABEL_K2,灼热火焰
+TID_LOU_LABEL_K2,零度冰沙
+TID_BYRON_LABEL_K2,绝命药师
+TID_EDGAR_LABEL_K2,跳跃搏击
+TID_RUFFS_LABEL_K2,星舰上校
+TID_STU_LABEL_K2,独轮秀
+TID_BELLE_LABEL_K2,终结者
+TID_SQUEAK_LABEL_K2,快乐黏球
+TID_GROM_LABEL_K2,十字爆弹
+TID_BUZZ_LABEL_K2,浮板奇袭
+TID_GRIFF_LABEL_K2,撒钱大亨
+TID_ASH_LABEL_K2,清扫大师
+TID_MEG_LABEL_K2,机甲少女
+TID_LOLLA_LABEL_K2,藤蔓重拳
+TID_FANG_LABEL_K2,功夫小子
+TID_EVE_LABEL_K2,移动母巢
+TID_JANET_LABEL_K2,特技飞行
+TID_BONNIE_LABEL_K2,人间大炮
+TID_OTIS_LABEL_K2,深海涂鸦
+TID_SAM_LABEL_K2,铁拳
+TID_GUS_LABEL_K2,惊魂气球
+TID_BUSTER_LABEL_K2,放映师
+TID_CHESTER_LABEL_K2,百色戏法
+TID_GRAY_LABEL_K2,默片时代
+TID_MANDY_LABEL_K2,彩虹射手
+TID_ARTIE_LABEL_K2,监控终端
+TID_WILLOW_LABEL_K2,摄魂魔灯
+TID_MAISIE_LABEL_K2,空气炮
+TID_FISHTANK_LABEL_K2,充气潜艇
+TID_CORDELIUS_LABEL_K2,异界迷菌
+TID_DOUG_LABEL_K2,重生热狗
+TID_PEARL_LABEL_K2,蒸汽烤炉
+TID_CHUCK_LABEL_K2,惊魂列车
+TID_CHARLIE_LABEL_K2,编织者
+TID_MICO_LABEL_K2,欢乐蹦跳
+TID_KIT_LABEL_K2,喵喵拳
+TID_TWINS_LABEL_K2,售票双星
+TID_MELODY_LABEL_K2,彩虹射手
+TID_ANGELO_LABEL_K2,魔沼飞针
+TID_DRACO_LABEL_K2,龙之力量
+TID_LILY_LABEL_K2,棘刺突袭
+TID_BERRY_LABEL_K2,彩虹旋风
+TID_CLANCY_LABEL_K2,深海巨鳌
+TID_DIGGER_LABEL_K2,钻地鼠
+TID_SAMURAI_LABEL_K2,十文字斩
+TID_SHADE_LABEL_K2,惊魂暗影
+TID_JUJU_LABEL_K2,怪娃奇物
+TID_LIGHTYEAR_LABEL_K2,巴斯光年
+TID_MEEPLE_LABEL_K2,老千棋手
+TID_OLLIE_LABEL_K2,躁动滑板
+TID_LUMI_LABEL_K2,晨曦之星
+TID_FINX_LABEL_K2,时之巫
+TID_BASEBALL_JOKER_SKIN,RUNAWAY LOLI BIBI
+TID_BASEBALL_JOKER_SKIN_SHOP,RUNAWAY LOLI BIBI
+TID_JESTER_JOKER_SKIN,JOKER CHESTER
+TID_JESTER_JOKER_SKIN_SHOP,JOKER CHESTER
+TID_LOBBY_LOCATION_LIST_TITLE,星妙乐园
+TID_LOBBY_ERROR_IN_THIS_LOBBY_LOCATION,已在此乐园
