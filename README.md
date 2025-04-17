@@ -11,7 +11,12 @@ Follow these steps to use it:
 ## How to Add to the Chinese Brawl Client  
 
 ### iOS Instructions  
-You will need **Filza**, jb or torl store the Chinese Brawl client installed on your device.  
+
+Download IPA [here](https://t.me/c/2087038259/6167)
+
+#### Filza method
+
+You will need jailbreak or troll store and the Chinese Brawl client installed on your device.  
 
 1. Move `ktr.csv` into Filza using the **Share > Copy to Filza** option.  
 2. Open Filza and navigate to the following path:  
@@ -19,6 +24,11 @@ You will need **Filza**, jb or torl store the Chinese Brawl client installed on 
 3. Delete the existing `cn.csv` file.  
 4. Paste `ktr.csv` into this directory.  
 5. Rename `ktr.csv` to `cn.csv`.
+
+#### E-Sign method
+
+Import the IPA and then go to the `Apps` tab press `CN BS EN` and tap on `Signiture`. Next go to `More options` and select `Supports Document Browser`. Then press `Signiture` and after installing open your file browser and move ktr.csv inside `On My iPhone/Brawl Stars/updated/localization/cn.csv`.
+
 ### Android Instructions
 no
 
