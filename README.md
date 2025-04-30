@@ -27,7 +27,12 @@ You will need jailbreak or troll store and the Chinese Brawl client installed on
 
 #### E-Sign method
 
-Import the IPA and then go to the `Apps` tab press `CN BS EN` and tap on `Signiture`. Next go to `More options` and select `Supports Document Browser`. Then press `Signiture` and after installing open your file browser and move ktr.csv inside `On My iPhone/Brawl Stars/updated/localization/cn.csv`.
+1. Import the IPA to esign
+2. Go to the `Apps` tab and press `CN BS EN` and tap on `Signiture`.
+3. Go to `More options` and select `Supports Document Browser`.
+4. Press `Signiture` and after installing
+5. Open your file browser and move ktr.csv inside `On My iPhone/Brawl Stars/updated/localization/cn.csv`.
+6. Rename to cn.csv
 
 ### Android Instructions
 no
