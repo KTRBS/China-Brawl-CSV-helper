@@ -34,6 +34,8 @@ You will need jailbreak or troll store and the Chinese Brawl client installed on
 5. Open your file browser and move ktr.csv inside `On My iPhone/Brawl Stars/updated/localization/cn.csv`.
 6. Rename to cn.csv
 
+Video Tutorial [here](https://youtube.com/video/hV_Arnz7kIM)
+
 ### Android Instructions
 no
 
