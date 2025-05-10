@@ -12,7 +12,7 @@ Follow these steps to use it:
 
 ### iOS Instructions  
 
-Download IPA [here]([https://t.me/cnbs2/14])
+Download IPA [here](https://t.me/cnbs2/14)
 
 #### Filza method
 
