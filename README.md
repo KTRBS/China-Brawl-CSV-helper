@@ -41,8 +41,10 @@ You will need jailbreak or troll store and the Chinese Brawl client installed on
 
 Video Tutorial [here](https://youtube.com/video/hV_Arnz7kIM)
 
-### Android Instructions
-no
+### Android Instructions (rooted only)
+1. Download and install apk from [here](bs.qq.com)
+2. Go to `data/user/com/0/com.tencent.tmgp.supercell.brawlstars/update/localization`
+3. Place ktr.csv and rename it to cn.csv
 
 ## What is `del.py`?
 The `del.py` script is used to delete duplicates in case something gets messed up during the process.
