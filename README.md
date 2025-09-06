@@ -10,7 +10,8 @@ Follow these steps to use it:
 
 ## How can I decompress cn.csv to investigate?
 Use tgbot in decompresser folder. Set your tgbot token in line 20. 
-‼️‼️lib_csv is made by **[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)** , not by me‼️‼️
+
+‼️‼️lib_csv is from **[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)** , not by me‼️‼️
 
 ## How to Add to the Chinese Brawl Client  
 
