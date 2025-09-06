@@ -8,8 +8,8 @@ Follow these steps to use it:
 2. Run `cn.py`.  
    - The script will add all lines from `texts.csv` that do not already exist in the `ktr.csv` file.
 
-## How can I decompress cn.csv from client?
-Use tgbot in decompresser folder. lib_csv by **credits** 
+## How can I decompress cn.csv to investigate?
+Use tgbot in decompresser folder. lib_csv by **[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)** 
 
 ## How to Add to the Chinese Brawl Client  
 
