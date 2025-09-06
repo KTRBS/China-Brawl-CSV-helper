@@ -1,0 +1,127 @@
+import os
+import logging
+from telegram import Update
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    MessageHandler,
+    filters,
+    ContextTypes,
+)
+from lib_csv import encode_file, decode_file
+
+# Logging setup
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+)
+logger = logging.getLogger(__name__)
+
+# Telegram Bot token (replace with token from BotFather)
+TOKEN = "YOUR_BOT_TOKEN_HERE"
+
+# Directory setup
+UPLOAD_DIR = "uploads"
+if not os.path.exists(UPLOAD_DIR):
+    os.makedirs(UPLOAD_DIR)
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handler for the /start command"""
+    await update.message.reply_text(
+        "Welcome to the CSV Encode/Decode Bot!\n"
+        "Send a CSV file to process. Available commands:\n"
+        "/encode - Encode the sent file\n"
+        "/decode - Decode the sent file"
+    )
+
+async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handler for receiving documents (CSV files)"""
+    document = update.message.document
+    if not document.file_name.endswith(".csv"):
+        await update.message.reply_text("Only CSV files are supported.")
+        return
+
+    # Download the file
+    file = await document.get_file()
+    file_path = os.path.join(UPLOAD_DIR, document.file_name)
+    await file.download_to_drive(file_path)
+
+    # Store file path in user data
+    context.user_data["last_file"] = file_path
+    await update.message.reply_text(
+        "File received! Choose an action:\n"
+        "/encode - Encode the file\n"
+        "/decode - Decode the file"
+    )
+
+async def encode(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handler for the /encode command"""
+    if "last_file" not in context.user_data:
+        await update.message.reply_text("Please send a CSV file first.")
+        return
+
+    input_file = context.user_data["last_file"]
+    try:
+        encode_file(input_file)
+        output_file = os.path.splitext(input_file)[0] + ".encoded.csv"
+        if os.path.exists(output_file):
+            with open(output_file, "rb") as f:
+                await update.message.reply_document(
+                    document=f,
+                    filename=os.path.basename(output_file),
+                    caption="Encoded file"
+                )
+            # Cleanup: Remove temporary file
+            os.remove(output_file)
+        else:
+            await update.message.reply_text("Encoding failed.")
+    except Exception as e:
+        logger.error(f"Encoding error: {e}")
+        await update.message.reply_text(f"An error occurred during encoding: {e}")
+
+async def decode(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handler for the /decode command"""
+    if "last_file" not in context.user_data:
+        await update.message.reply_text("Please send a CSV file first.")
+        return
+
+    input_file = context.user_data["last_file"]
+    try:
+        decode_file(input_file)
+        output_file = os.path.splitext(input_file)[0] + ".decoded.csv"
+        if os.path.exists(output_file):
+            with open(output_file, "rb") as f:
+                await update.message.reply_document(
+                    document=f,
+                    filename=os.path.basename(output_file),
+                    caption="Decoded file"
+                )
+            # Cleanup: Remove temporary file
+            os.remove(output_file)
+        else:
+            await update.message.reply_text("Decoding failed.")
+    except Exception as e:
+        logger.error(f"Decoding error: {e}")
+        await update.message.reply_text(f"An error occurred during decoding: {e}")
+
+async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Error handler"""
+    logger.error(f"Update {update} caused error {context.error}")
+    if update:
+        await update.message.reply_text("An error occurred. Please try again.")
+
+def main():
+    """Main function to run the bot"""
+    application = Application.builder().token(TOKEN).build()
+
+    # Register handlers
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(CommandHandler("encode", encode))
+    application.add_handler(CommandHandler("decode", decode))
+    application.add_handler(MessageHandler(filters.Document.ALL, handle_document))
+    application.add_error_handler(error_handler)
+
+    # Start the bot
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+
+if __name__ == "__main__":
+    main()
