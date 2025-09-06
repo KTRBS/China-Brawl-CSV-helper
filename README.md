@@ -13,7 +13,7 @@ Use tgbot in decompresser folder. Set your tgbot token in line 20.
 
 ‼️lib_csv is from **[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)** not by me‼️
 
-## How to Add to the Chinese Brawl Client  
+## How to Apply the csv file to client  
 
 ### iOS Instructions  
 
