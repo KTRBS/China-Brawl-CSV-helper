@@ -9,7 +9,8 @@ Follow these steps to use it:
    - The script will add all lines from `texts.csv` that do not already exist in the `ktr.csv` file.
 
 ## How can I decompress cn.csv to investigate?
-Use tgbot in decompresser folder. lib_csv by **[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)** 
+Use tgbot in decompresser folder. Set your tgbot token in line 20. 
+‼️‼️lib_csv is made by **[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)** , not by me‼️‼️
 
 ## How to Add to the Chinese Brawl Client  
 
