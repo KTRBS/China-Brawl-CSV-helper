@@ -47,5 +47,6 @@ no
 ## What is `del.py`?
 The `del.py` script is used to delete duplicates in case something gets messed up during the process.
 
-## credir 
-chargpt
+## credits
+Chatgpt
+**[Supercell Resource Decoder](https://github.com/proydakov/supercell_resource_decoder/tree/master)**
