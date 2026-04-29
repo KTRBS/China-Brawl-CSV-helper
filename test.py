@@ -2,7 +2,6 @@ import os
 import logging
 import pandas as pd
 import csv
-import asyncio
 from telegram import Update
 from telegram.ext import (
     Application,
@@ -11,136 +10,132 @@ from telegram.ext import (
     filters,
     ContextTypes,
 )
-# lib_csv.py（decode_file, encode_fileを含む）が同ディレクトリにある前提
 from lib_csv import encode_file, decode_file
 
 # ロギング設定
-logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
+logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# --- 設定項目 ---
 TOKEN = "YOUR_BOT_TOKEN_HERE"
-UPLOAD_DIR = "uploads"
+
+# Pydroid3でも安定するように絶対パスを取得
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-def get_processed_path(original_path, suffix=".decoded.csv"):
-    """デコードやエンコード後にファイル名が変わる場合に対応"""
-    new_path = original_path.replace(".csv", suffix)
-    return new_path if os.path.exists(new_path) else original_path
+def get_actual_path(original_path, suffix=".decoded.csv"):
+    """
+    デコード後のファイルパスを確定させる。
+    1. original.decoded.csv
+    2. original.csv.decoded.csv (lib_csvの仕様に合わせる)
+    3. original.csv (上書きの場合)
+    を順番に探し、最初に見つかった「中身のあるファイル」を返します。
+    """
+    targets = [
+        original_path.replace(".csv", suffix),
+        original_path + suffix,
+        original_path
+    ]
+    for t in targets:
+        if os.path.exists(t) and os.path.getsize(t) > 0:
+            logger.info(f"Found valid file: {t}")
+            return t
+    return None
 
 def load_custom_csv(p):
-    """ダブルクォーテーションの囲いを考慮してCSVを読み込む"""
+    """ダブルクォーテーションを考慮し、中身の空チェックを行って読み込む"""
+    if p is None or not os.path.exists(p):
+        raise Exception("ファイルが見つかりません。デコードに失敗した可能性があります。")
+    if os.path.getsize(p) == 0:
+        raise Exception(f"ファイル {os.path.basename(p)} が空(0バイト)です。")
+    
     return pd.read_csv(
         p, 
         skiprows=[1], 
         quotechar='"', 
         skipinitialspace=True,
-        engine='python'
+        engine='python',
+        encoding='utf-8'
     )
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data.clear()
-    await update.message.reply_text(
-        "CSV一括インポートボットです。\n"
-        "**ktr.csv**, **texts.csv**, **cn.csv** の3ファイルを送信してください。\n"
-        "（一度に送っても、バラバラに送っても大丈夫です）"
-    )
+    await update.message.reply_text("ktr, texts, cn の3ファイルを送信してください。")
 
 async def handle_docs(update: Update, context: ContextTypes.DEFAULT_TYPE):
     doc = update.message.document
-    file_name = doc.file_name.lower()
+    f_name = doc.file_name.lower()
     user_id = update.effective_user.id
     
-    # ファイルの分類
-    file_type = None
-    if "ktr" in file_name:
-        file_type = "ktr"
-    elif "texts" in file_name:
-        file_type = "texts"
-    elif "cn" in file_name:
-        file_type = "cn"
+    f_type = None
+    if "ktr" in f_name: f_type = "ktr"
+    elif "texts" in f_name: f_type = "texts"
+    elif "cn" in f_name: f_type = "cn"
     
-    if not file_type:
-        await update.message.reply_text(f"無視されました: {doc.file_name}\n(ファイル名に ktr, texts, cn のいずれかを含めてください)")
-        return
+    if not f_type: return
 
-    # ダウンロード
-    path = os.path.join(UPLOAD_DIR, f"{user_id}_{file_type}.csv")
+    # 保存先を絶対パスで指定
+    save_path = os.path.join(UPLOAD_DIR, f"{user_id}_{f_type}.csv")
     file = await doc.get_file()
-    await file.download_to_drive(path)
+    await file.download_to_drive(save_path)
     
-    # ユーザーデータに保存
-    if "files" not in context.user_data:
-        context.user_data["files"] = {}
-    context.user_data["files"][file_type] = path
+    if "files" not in context.user_data: context.user_data["files"] = {}
+    context.user_data["files"][f_type] = save_path
     
-    current_files = list(context.user_data["files"].keys())
-    await update.message.reply_text(f"受信完了: {file_type} ({len(current_files)}/3 揃いました)")
+    await update.message.reply_text(f"受信: {f_type} ({len(context.user_data['files'])}/3)")
 
-    # 3つ揃ったら処理開始
-    if len(current_files) == 3:
+    if len(context.user_data["files"]) == 3:
         await proceed_merge(update, context)
 
 async def proceed_merge(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     files = context.user_data["files"]
-    await update.message.reply_text("3つのファイルが揃いました。全ファイルをデコードしてマージを開始します...")
 
     try:
-        # 1. 全ファイルをデコード
+        # 1. 全ファイルをデコードし、パスを確定
         decoded_paths = {}
         for ftype, path in files.items():
             decode_file(path)
-            decoded_paths[ftype] = get_processed_path(path, ".decoded.csv")
+            actual = get_actual_path(path, ".decoded.csv")
+            if not actual:
+                raise Exception(f"{ftype}のデコード後のファイルが見つからないか、空です。")
+            decoded_paths[ftype] = actual
 
-        # 2. データの読み込み
+        # 2. 読み込み
         df_ktr = load_custom_csv(decoded_paths["ktr"])
         df_texts = load_custom_csv(decoded_paths["texts"])
         df_cn = load_custom_csv(decoded_paths["cn"])
 
-        # 3. マージロジック (TID照合)
-        # textsからktrにないものを追加
+        # 3. マージ
         new_texts = df_texts[~df_texts['TID'].isin(df_ktr['TID'])]
         df_merged = pd.concat([df_ktr, new_texts], ignore_index=True)
-
-        # cnからこれまでにないものを追加
         new_cn = df_cn[~df_cn['TID'].isin(df_merged['TID'])]
         df_final = pd.concat([df_merged, new_cn], ignore_index=True)
 
-        # 4. 結果の保存 (囲いあり)
-        result_csv = os.path.join(UPLOAD_DIR, f"{user_id}_final_result.csv")
-        with open(result_csv, 'w', encoding='utf-8', newline='') as f:
+        # 4. 保存
+        res_csv = os.path.join(UPLOAD_DIR, f"{user_id}_final.csv")
+        with open(res_csv, 'w', encoding='utf-8', newline='') as f:
             f.write('"TID","CN"\n"string","string"\n')
             df_final.to_csv(f, index=False, header=False, quoting=csv.QUOTE_ALL, lineterminator='\n')
 
-        # 5. エンコード処理
-        encode_file(result_csv)
-        final_file = get_processed_path(result_csv, ".encoded.csv")
+        # 5. エンコード
+        encode_file(res_csv)
+        final_file = get_actual_path(res_csv, ".encoded.csv")
 
-        # 6. 送信
         with open(final_file, "rb") as f:
-            await update.message.reply_document(
-                document=f, 
-                filename="merged_result.csv",
-                caption="一括処理が完了しました。"
-            )
+            await update.message.reply_document(f, filename="merged_result.csv")
 
-        # データの消去（次の処理のため）
         context.user_data.clear()
 
     except Exception as e:
-        logger.error(f"Merge error: {e}")
-        await update.message.reply_text(f"エラーが発生しました:\n{e}")
+        logger.error(f"Error: {e}", exc_info=True)
+        await update.message.reply_text(f"エラー発生:\n{e}")
 
 def main():
-    application = Application.builder().token(TOKEN).build()
-    
-    application.add_handler(CommandHandler("start", start))
-    # 全てのドキュメント（ファイル）を同じ関数で受ける
-    application.add_handler(MessageHandler(filters.Document.ALL, handle_docs))
-    
-    print("Bot is running...")
-    application.run_polling()
+    app = Application.builder().token(TOKEN).build()
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(MessageHandler(filters.Document.ALL, handle_docs))
+    app.run_polling()
 
 if __name__ == "__main__":
     main()
